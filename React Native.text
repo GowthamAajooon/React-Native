@@ -1,0 +1,25 @@
+Step 2: Install React Native CLI
+
+npm install -g react-native-cli
+
+
+Step 3: Create a New React Native Project
+
+npx react-native init MyFirstApp
+
+
+Create a new project by running:
+
+npx react-native init MyFirstApp
+
+
+Change into the project directory:
+
+cd MyFirstApp
+
+
+
+
+
+
+5. Navigating Between Screens
