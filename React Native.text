@@ -1,28 +1,210 @@
-Step 2: Install React Native CLI
+commands 
 
-npm install -g react-native-cli
-
-
-Step 3: Create a New React Native Project
-
-npx react-native init MyFirstApp
-
-
-Create a new project by running:
-
-npx react-native init MyFirstApp
-
-
-Change into the project directory:
-
-cd MyFirstApp
-
-
-5. Navigating Between Screens 
+install nodejs
+PS D:\demo> npm install -g expo-cli	
+PS D:\demo> expo init learn-demo
+PS D:\demo> cd .\learn-demo
+PS D:\demo\demo> npx expo start
+PS D:\demo\demo> npx expo install react-native-web react-dom @expo/metro-runtime
+PS D:\demo\demo> npx expo start
 
 
 
 
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+-- MYSQL
 
+CREATE DATABASE learn_demo;
+USE learn_demo;
+
+CREATE TABLE users (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  name VARCHAR(50) Not Null,
+  phone_number VARCHAR(15) NOT NULL
+);
+
+--------------------------------------------------------------------------------------------------------
+// App.js
+
+npm install axios
+npm install @react-navigation/native
+npm install @react-navigation/stack
+
+
+import React from 'react';
+import { NavigationContainer } from '@react-navigation/native';
+import { createStackNavigator } from '@react-navigation/stack';
+import HomeScreen from './screens/HomeScreen';
+
+const Stack = createStackNavigator();
+
+const App = () => {
+  return (
+    <NavigationContainer>
+      <Stack.Navigator>
+        <Stack.Screen
+          name="Home"
+          component={HomeScreen}
+          options={{ headerShown: false }} // Hide the default header if you want to use your custom title bar
+        />
+      </Stack.Navigator>
+    </NavigationContainer>
+  );
+};
+
+export default App;
+---------------------------------------------------------------------------------------------------------------------------
+// HomeScreen.js
+
+import React, { useState } from 'react';
+import { View, Text, TextInput, Button, StyleSheet, Alert } from 'react-native';
+import axios from 'axios';
+
+const HomeScreen = () => {
+  const [name, setName] = useState('');
+  const [mobileNumber, setMobileNumber] = useState('');
+
+  const validateAndSubmit = () => {
+    // Validate name
+    if (name.length === 0 || name.length > 50) {
+      Alert.alert('Error', 'Name must be between 1 and 50 characters.');
+      return;
+    }
+
+    // Validate mobile number (10 digits)
+    if (!/^\d{10}$/.test(mobileNumber)) {
+      Alert.alert('Error', 'Mobile number must be exactly 10 digits.');
+      return;
+    }
+
+    // Submit data to backend
+    axios.post('http://192.168.101.153:3000/register', { name, phone_number: mobileNumber })
+      .then(response => {
+        Alert.alert('Success', 'User registered successfully!');
+      })
+      .catch(error => {
+        Alert.alert('Error', 'Failed to register user.');
+        console.error(error);
+      });
+  };
+
+  return (
+    <View style={styles.container}>
+      <View style={styles.titleBar}>
+        <Text style={styles.title}>Learn-demo</Text>
+      </View>
+      <View style={styles.body}>
+        <TextInput
+          style={styles.input}
+          placeholder="Enter your name"
+          value={name}
+          onChangeText={setName}
+        />
+        <TextInput
+          style={styles.input}
+          placeholder="Enter your mobile number"
+          keyboardType="numeric"
+          value={mobileNumber}
+          onChangeText={setMobileNumber}
+        />
+        <Button title="Submit" onPress={validateAndSubmit} />
+      </View>
+    </View>
+  );
+};
+
+const styles = StyleSheet.create({
+  container: { flex: 1, backgroundColor: 'lightblue' },
+  titleBar: { padding: 16, backgroundColor: 'darkblue' },
+  title: { color: 'white', fontSize: 20, textAlign: 'center' },
+  body: { padding: 16 },
+  input: {
+    height: 50,
+    borderColor: 'gray',
+    borderWidth: 1,
+    marginBottom: 16,
+    paddingHorizontal: 8,
+  },
+});
+
+export default HomeScreen;
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+// server.js
+
+// npm install express mysql2 body-parser cors
+
+const express = require('express');
+const mysql = require('mysql2');
+const bodyParser = require('body-parser');
+const cors = require('cors');
+
+const app = express();
+app.use(bodyParser.json());
+app.use(cors());
+
+const db = mysql.createConnection({
+  host: 'localhost',
+  user: 'root',
+  password: 'dhan',
+  database: 'learn_demo'
+});
+
+db.connect((err) => {
+  if (err) throw err;
+  console.log('Connected to MySQL Database');
+});
+
+app.post('/register', (req, res) => {
+  const { name, phone_number } = req.body;
+
+  const sql = 'INSERT INTO users (name, phone_number) VALUES (?, ?)';
+  db.query(sql, [name, phone_number], (err, result) => {
+    if (err) {
+      console.error(err);
+      res.status(500).json({ message: 'Failed to register user' });
+    } else {
+      res.status(200).json({ message: 'User registered successfully' });
+    }
+  });
+});
+
+app.listen(3000, () => {
+  console.log('Server is running on port 3000');
+});
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+npx expo start
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+eas login 
+
+gowthaminayam
+password - Gowt****
+
+eas build:configure
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---------------------------------------------------------------------------------------------------------------------------------------------------
+                                                        DOCKER DEPLOYMENT
+---------------------------------------------------------------------------------------------------------------------------------------------------
+
+docker build -t my-react-app-image .
+docker run -d -p 3005:3005 --name my-react-app-container my-react-app-image
+docker stop my-react-app-container
+docker rm my-react-app-container
+docker run -d -p 3002:3002 --name my-react-app-container my-react-app-image
+ 
 
 
