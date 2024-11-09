@@ -182,10 +182,10 @@ password - Gowt****
 
 eas build:configure
 
+npx expo prebuild
 
-
-
-
+PS D:\learn\learn-demo> eas build:configure
+PS D:\learn\learn-demo> eas build -p android --profile preview
 
 
 
@@ -205,6 +205,45 @@ docker run -d -p 3005:3005 --name my-react-app-container my-react-app-image
 docker stop my-react-app-container
 docker rm my-react-app-container
 docker run -d -p 3002:3002 --name my-react-app-container my-react-app-image
- 
 
 
+
+
+ -----------------------------------------------------------------------------------------------------------------------------------------------------
+ PS D:\learn\learn-demo> eas login        
+You are already logged in as gowthaminayam.
+√ Do you want to continue? ... yes
+Log in to EAS with email or username (exit and run eas login --help to see other login options)
+√ Email or username ... gowthaminayam
+√ Password ... ********
+Logged in
+PS D:\learn\learn-demo> eas build:configure
+EAS project not configured.
+√ Existing EAS project found for @gowthaminayam/learn-demo (id = 42da0a06-4c81-4e4d-a52b-ddf51bb04b8a). Configure this project? ... yes
+✔ Linked local project to EAS project 42da0a06-4c81-4e4d-a52b-ddf51bb04b8a
+💡 The following process will configure your iOS and/or Android project to be compatible with EAS Build. These changes only apply to your local project files and you can safely revert them at any time.
+
+√ Which platforms would you like to configure for EAS Build? » Android
+
+√ Generated eas.json. Learn more: https://docs.expo.dev/build-reference/eas-json/
+
+🎉 Your project is ready to build.
+
+- Run eas build when you are ready to create your first build.
+- Once the build is completed, run eas submit to upload the app to app stores.
+- Learn more about other capabilities of EAS Build: https://docs.expo.dev/build/introduction
+PS D:\learn\learn-demo> eas build -p android --profile preview
+Loaded "env" configuration for the "preview" profile: no environment variables specified. Learn more: https://docs.expo.dev/build-reference/variables/
+
+📝  Android application id Learn more: https://expo.fyi/android-package
+√ What would you like your Android application id to be? ... com.gowthaminayam.learndemo
+✔ Using remote Android credentials (Expo server)
+✔ Using Keystore from configuration: Build Credentials qRIINTlpqf (default)
+
+Compressing project files and uploading to EAS Build. Learn more: https://expo.fyi/eas-build-archive
+✔ Uploaded to EAS 1s
+
+Build details: https://expo.dev/accounts/gowthaminayam/projects/learn-demo/builds/29639268-5755-48d4-a094-e1fb0aa855e4
+
+Waiting for build to complete. You can press Ctrl+C to exit.
+| Build in progress...
