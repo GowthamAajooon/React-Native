@@ -1,5 +1,16 @@
 commands 
 
+npm install -g expo-cli
+expo init my-new-project
+npx expo start
+npm install -g eas-cli
+
+update github
+
+eas login
+eas build:configure
+eas build -p android --profile preview
+
 install nodejs
 PS D:\demo> npm install -g expo-cli	
 PS D:\demo> expo init learn-demo
