@@ -5,6 +5,8 @@ expo init my-new-project
 npx expo start
 npm install -g eas-cli
 
+npm install expo@~51.0.0
+
 update github
 
 eas login
