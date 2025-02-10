@@ -1,3 +1,625 @@
+complete guide to build apk
+
+create a new project
 
 
-npm install -g expo-cli --force
+PS C:\Users\Administrator\Desktop\Attendansu> cd .\Attendance\
+PS C:\Users\Administrator\Desktop\Attendansu\Attendance> cd ..
+PS C:\Users\Administrator\Desktop\Attendansu> npm install -g expo-cli    
+npm warn deprecated @npmcli/move-file@1.1.2: This functionality has been moved to @npmcli/fs
+npm warn deprecated osenv@0.1.5: This package is no longer supported.
+npm warn deprecated inflight@1.0.6: This module is not supported, and leaks memory. Do not use it. Check out lru-cache if you want a good and tested way to coalesce async requests by a key value, which is much more comprehensive and powerful.
+npm warn deprecated @babel/plugin-proposal-optional-catch-binding@7.18.6: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-optional-catch-binding instead.
+npm warn deprecated @babel/plugin-proposal-nullish-coalescing-operator@7.18.6: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-nullish-coalescing-operator instead.
+npm warn deprecated @babel/plugin-proposal-class-properties@7.18.6: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-class-properties instead.
+npm warn deprecated stable@0.1.8: Modern JS already guarantees Array#sort() is a stable sort, so this library is deprecated. See the compatibility table on MDN: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort#browser_compatibility
+npm warn deprecated rimraf@2.4.5: Rimraf versions prior to v4 are no longer supported
+npm warn deprecated rimraf@2.7.1: Rimraf versions prior to v4 are no longer supported
+npm warn deprecated @babel/plugin-proposal-optional-chaining@7.21.0: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-optional-chaining instead.
+npm warn deprecated @babel/plugin-proposal-object-rest-spread@7.20.7: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-object-rest-spread instead.
+npm warn deprecated rimraf@3.0.2: Rimraf versions prior to v4 are no longer supported
+npm warn deprecated glob@6.0.4: Glob versions prior to v9 are no longer supported
+npm warn deprecated @babel/plugin-proposal-async-generator-functions@7.20.7: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-async-generator-functions instead.
+npm warn deprecated abab@2.0.6: Use your platform's native atob() and btoa() methods instead
+npm warn deprecated glob@7.1.6: Glob versions prior to v9 are no longer supported
+npm warn deprecated sudo-prompt@9.1.1: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
+npm warn deprecated @xmldom/xmldom@0.7.13: this version is no longer supported, please update to at least 0.8.*
+npm warn deprecated sudo-prompt@8.2.5: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
+npm warn deprecated uuid@3.4.0: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+npm warn deprecated uuid@3.4.0: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+npm warn deprecated uuid@3.4.0: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+npm warn deprecated uuid@3.4.0: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+npm warn deprecated expo-cli@6.3.10: The global Expo CLI has been superseded by 'npx expo' and eas-cli –– Learn more: https://blog.expo.dev/the-new-expo-cli-f4250d8e3421
+
+added 2 packages, and changed 1296 packages in 1m
+
+185 packages are looking for funding
+  run `npm fund` for details
+PS C:\Users\Administrator\Desktop\Attendansu>  expo init Attendance
+WARNING: The legacy expo-cli does not support Node +17. Migrate to the new local Expo CLI: https://blog.expo.dev/the-new-expo-cli-f4250d8e3421.
+┌───────────────────────────────────────────────────────────────────────────┐
+│                                                                           │
+│   The global expo-cli package has been deprecated.                        │
+│                                                                           │
+│   The new Expo CLI is now bundled in your project in the expo package.    │
+│   Learn more: https://blog.expo.dev/the-new-expo-cli-f4250d8e3421.        │
+│                                                                           │
+│   To use the local CLI instead (recommended in SDK 46 and higher), run:   │
+│   › npx expo <command>                                                    │
+│                                                                           │
+└───────────────────────────────────────────────────────────────────────────┘
+
+Migrate to using:
+› npx create-expo-app --template
+
+√ Choose a template: » blank               a minimal app as clean as an empty canvas
+√ Downloaded template.
+📦 Using npm to install packages.
+√ Installed JavaScript dependencies.
+
+✅ Your project is ready!
+
+To run your project, navigate to the directory and run one of the following npm commands.
+
+- cd Attendance
+- npm start # you can open iOS, Android, or web from here, or run them directly with the commands below.
+- npm run android
+- npm run ios # requires an iOS device or macOS for access to an iOS simulator
+- npm run web
+Unable to initialize git repo. `git` not in PATH.
+PS C:\Users\Administrator\Desktop\Attendansu> ^C
+PS C:\Users\Administrator\Desktop\Attendansu> eas login
+You are already logged in as gowthaminayam.
+√ Do you want to continue? ... yes
+Log in to EAS with email or username (exit and run eas login --help to see other login options)
+√ Email or username ... gowthaminayam
+√ Password ... ********
+Logged in
+PS C:\Users\Administrator\Desktop\Attendansu> cd .\Attendance\
+PS C:\Users\Administrator\Desktop\Attendansu\Attendance> eas build:configure
+★ eas-cli@15.0.9 is now available.
+To upgrade, run:
+npm install -g eas-cli
+Proceeding with outdated version.
+
+EAS project not configured.
+√ Would you like to automatically create an EAS project for @gowthaminayam/Attendance? ... yes
+✔ Created @gowthaminayam/Attendance: https://expo.dev/accounts/gowthaminayam/projects/Attendance on EAS
+✔ Linked local project to EAS project efc3e104-a123-45af-9ef2-2f8c4454f172
+💡 The following process will configure your iOS and/or Android project to be compatible with EAS Build. These changes only apply to your local project files and you can safely revert them at any time.
+git command not found. Install it before proceeding or set EAS_NO_VCS=1 to use EAS CLI without Git (or any other version control system).
+Learn more: https://expo.fyi/eas-vcs-workflow
+git found, but git --help exited with status undefined.
+Repair your Git installation, or set EAS_NO_VCS=1 to use EAS CLI without Git (or any other version control system).
+Learn more: https://expo.fyi/eas-vcs-workflow
+EEXIT: 1
+    Error: build:configure command failed.
+PS C:\Users\Administrator\Desktop\Attendansu\Attendance> git --version
+git : The term 'git' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is 
+correct and try again.
+At line:1 char:1
++ git --version
++ ~~~
+    + CategoryInfo          : ObjectNotFound: (git:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\Users\Administrator\Desktop\Attendansu\Attendance> eas build:configure
+★ eas-cli@15.0.9 is now available.
+To upgrade, run:
+npm install -g eas-cli
+Proceeding with outdated version.
+
+💡 The following process will configure your iOS and/or Android project to be compatible with EAS Build. These changes only apply to your local project files and you can safely revert them at any time.
+git command not found. Install it before proceeding or set EAS_NO_VCS=1 to use EAS CLI without Git (or any other version control system).
+Learn more: https://expo.fyi/eas-vcs-workflow
+git found, but git --help exited with status undefined.
+Repair your Git installation, or set EAS_NO_VCS=1 to use EAS CLI without Git (or any other version control system).
+Learn more: https://expo.fyi/eas-vcs-workflow
+EEXIT: 1
+    Error: build:configure command failed.
+PS C:\Users\Administrator\Desktop\Attendansu\Attendance> EAS_NO_VCS=1 eas build:configure
+>>
+EAS_NO_VCS=1 : The term 'EAS_NO_VCS=1' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, 
+verify that the path is correct and try again.
+At line:1 char:1
++ EAS_NO_VCS=1 eas build:configure
++ ~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (EAS_NO_VCS=1:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\Users\Administrator\Desktop\Attendansu\Attendance> npm install @expo/metro-runtime@~3.2.3 @react-native-async-storage/async-storage@^2.1.0 @react-native-community/datetimepicker@^8.2.0 @react-native-community/masked-view@^0.1.11 @react-native-picker/picker@^2.7.7 @react-navigation/native@^6.1.18 @react-navigation/stack@^6.4.1 axios@^1.7.7 bcrypt@^5.1.1 body-parser@^1.20.2 cors@^2.8.5 expo@~51.0.14 expo-device@~6.0.2 expo-image-picker@~15.0.7 expo-linear-gradient@~13.0.2 expo-location@~17.0.1 expo-status-bar@~1.12.1 express@^4.19.2 moment-timezone@^0.5.45 mysql2@^3.11.0 react@18.2.0 react-dom@18.2.0 react-native@0.74.5 react-native-animatable@^1.4.0 react-native-date-picker@^5.0.4 react-native-datepicker@^1.7.2 react-native-gesture-handler@~2.16.1 react-native-linear-gradient@^2.8.3 react-native-paper@^5.12.3 react-native-picker-select@^9.1.3 react-native-reanimated@~3.10.1 react-native-safe-area-context@^4.10.1 react-native-screens@^3.31.1 react-native-svg@^15.10.1 react-native-vector-icons@^10.1.0 react-native-web@~0.19.10
+npm warn deprecated osenv@0.1.5: This package is no longer supported.
+npm warn deprecated @babel/plugin-proposal-optional-catch-binding@7.18.6: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-optional-catch-binding instead.
+npm warn deprecated @babel/plugin-proposal-numeric-separator@7.18.6: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-numeric-separator instead.
+npm warn deprecated npmlog@5.0.1: This package is no longer supported.
+npm warn deprecated lodash.isequal@4.5.0: This package is deprecated. Use require('node:util').isDeepStrictEqual instead.
+npm warn deprecated @babel/plugin-proposal-object-rest-spread@7.20.7: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-object-rest-spread instead.
+npm warn deprecated glob@7.2.3: Glob versions prior to v9 are no longer supported
+npm warn deprecated @babel/plugin-proposal-async-generator-functions@7.20.7: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-async-generator-functions instead.
+npm warn deprecated @babel/plugin-proposal-logical-assignment-operators@7.20.7: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-logical-assignment-operators instead.
+npm warn deprecated glob@7.1.6: Glob versions prior to v9 are no longer supported
+npm warn deprecated glob@7.1.6: Glob versions prior to v9 are no longer supported
+npm warn deprecated glob@7.1.6: Glob versions prior to v9 are no longer supported
+npm warn deprecated are-we-there-yet@2.0.0: This package is no longer supported.
+npm warn deprecated querystring@0.2.1: The querystring API is considered Legacy. new code should use the URLSearchParams API instead.
+npm warn deprecated sudo-prompt@9.2.1: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
+npm warn deprecated gauge@3.0.2: This package is no longer supported.
+npm warn deprecated @react-native-community/masked-view@0.1.11: Repository was moved to @react-native-masked-view/masked-view
+
+added 465 packages, removed 84 packages, changed 82 packages, and audited 1243 packages in 2m
+
+161 packages are looking for funding
+  run `npm fund` for details
+
+8 vulnerabilities (5 low, 3 high)
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+PS C:\Users\Administrator\Desktop\Attendansu\Attendance> 
+
+
+
+
+
+install git [if facing error]
+
+git --version
+git status
+git init
+git add .
+git commit -m "Initial commit"
+$env:EAS_NO_VCS="1"
+eas build:configure
+
+
+✅ Check if Git is Installed
+Run:
+
+sh
+Copy
+Edit
+git --version
+If it's not installed, Download Git and install it.
+
+✅ Check if Your Project is Inside a Git Repo
+Run:
+
+sh
+Copy
+Edit
+git status
+If you see fatal: not a git repository, then initialize a repo:
+sh
+Copy
+Edit
+git init
+git add .
+git commit -m "Initial commit"
+If you don’t want to use Git, set the EAS_NO_VCS flag:
+powershell
+Copy
+Edit
+$env:EAS_NO_VCS="1"
+eas build:configure
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Windows PowerShell
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Install the latest PowerShell for new features and improvements! https://aka.ms/PSWindows
+
+PS C:\Users\Administrator> git --version
+git version 2.47.1.windows.2
+PS C:\Users\Administrator> git --version
+git version 2.47.1.windows.2
+PS C:\Users\Administrator> cd C:\Users\Administrator\Desktop\Attendansu\Attendance
+PS C:\Users\Administrator\Desktop\Attendansu\Attendance> $env:EAS_NO_VCS=1; eas build:configure
+★ eas-cli@15.0.9 is now available.
+To upgrade, run:
+npm install -g eas-cli
+Proceeding with outdated version.
+
+Using EAS CLI without version control system is not recommended, use this mode only if you know what you are doing.
+💡 The following process will configure your iOS and/or Android project to be compatible with EAS Build. These changes only apply to your local project files and you can safely revert them at any time.
+
+√ Which platforms would you like to configure for EAS Build? » Android
+
+√ Generated eas.json. Learn more: https://docs.expo.dev/build-reference/eas-json/
+
+🎉 Your project is ready to build.
+
+- Run eas build when you are ready to create your first build.
+- Once the build is completed, run eas submit to upload the app to app stores.
+- Learn more about other capabilities of EAS Build: https://docs.expo.dev/build/introduction
+PS C:\Users\Administrator\Desktop\Attendansu\Attendance> set EAS_NO_VCS=1 && eas build:configure
+At line:1 char:18
++ set EAS_NO_VCS=1 && eas build:configure
++                  ~~
+The token '&&' is not a valid statement separator in this version.
+    + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordException
+    + FullyQualifiedErrorId : InvalidEndOfLine
+
+PS C:\Users\Administrator\Desktop\Attendansu\Attendance> eas build --platform android --profile preview
+★ eas-cli@15.0.9 is now available.
+To upgrade, run:
+npm install -g eas-cli
+Proceeding with outdated version.
+
+Using EAS CLI without version control system is not recommended, use this mode only if you know what you are doing.
+Resolved "preview" environment for the build. Learn more: https://docs.expo.dev/eas/environment-variables/#setting-the-environment-for-your-builds
+No environment variables with visibility "Plain text" and "Sensitive" found for the "preview" environment on EAS.
+
+📝  Android application id Learn more: https://expo.fyi/android-package
+√ What would you like your Android application id to be? ... com.gowthaminayam.Attendance
+No remote versions are configured for this project, versionCode will be initialized based on the value from the local project.
+✔ Initialized versionCode with 1.
+✔ Using remote Android credentials (Expo server)
+√ Generate a new Android Keystore? ... yes
+✔ Created keystore
+
+Compressing project files and uploading to EAS Build. Learn more: https://expo.fyi/eas-build-archive
+✔ Compressed project files 1m 32s (90.4 MB)
+✔ Uploaded to EAS 8s
+✔ Computed project fingerprint
+
+Build details: https://expo.dev/accounts/gowthaminayam/projects/Attendance/builds/4d8db1a3-aefa-40c6-9d3d-68556d1d05b3
+
+Waiting for build to complete. You can press Ctrl+C to exit.
+✖ Build failed
+
+🤖 Android build failed:
+Unknown error. See logs of the Prebuild build phase for more information.
+PS C:\Users\Administrator\Desktop\Attendansu\Attendance> npx expo prebuild --no-install --platform android
+√ Created native directory
+√ Updated package.json
+» android: userInterfaceStyle: Install expo-system-ui in your project to enable this feature.
+√ Finished prebuild
+PS C:\Users\Administrator\Desktop\Attendansu\Attendance> eas build --platform android --profile preview
+★ eas-cli@15.0.9 is now available.
+To upgrade, run:
+npm install -g eas-cli
+Proceeding with outdated version.
+
+Using EAS CLI without version control system is not recommended, use this mode only if you know what you are doing.
+Resolved "preview" environment for the build. Learn more: https://docs.expo.dev/eas/environment-variables/#setting-the-environment-for-your-builds
+No environment variables with visibility "Plain text" and "Sensitive" found for the "preview" environment on EAS.
+
+Specified value for "android.package" in app.json is ignored because an android directory was detected in the project.
+EAS Build will use the value found in the native code.
+✔ Using remote Android credentials (Expo server)
+✔ Using Keystore from configuration: Build Credentials lDFdafk1iK (default)
+
+Compressing project files and uploading to EAS Build. Learn more: https://expo.fyi/eas-build-archive
+✔ Compressed project files 1m 4s (91.0 MB)
+✔ Uploaded to EAS 8s
+✔ Computed project fingerprint
+
+Build details: https://expo.dev/accounts/gowthaminayam/projects/Attendance/builds/847403c0-0107-4433-b4c9-28a8bf7a4051
+
+Waiting for build to complete. You can press Ctrl+C to exit.
+✖ Build failed
+
+🤖 Android build failed:
+Unknown error. See logs of the Bundle JavaScript build phase for more information.
+PS C:\Users\Administrator\Desktop\Attendansu\Attendance> npx expo export:embed --eager --platform android --dev false
+Starting Metro Bundler
+Android Bundled 10863ms index.js (546 modules)
+Writing bundle output to: C:\Users\ADMINI~1\AppData\Local\Temp\ot2sflaeeh\index.js
+Done writing bundle output
+PS C:\Users\Administrator\Desktop\Attendansu\Attendance> expo install expo-system-ui
+WARNING: The legacy expo-cli does not support Node +17. Migrate to the new local Expo CLI: https://blog.expo.dev/the-new-expo-cli-f4250d8e3421.
+┌───────────────────────────────────────────────────────────────────────────┐
+│                                                                           │
+│   The global expo-cli package has been deprecated.                        │
+│                                                                           │
+│   The new Expo CLI is now bundled in your project in the expo package.    │
+│   Learn more: https://blog.expo.dev/the-new-expo-cli-f4250d8e3421.        │
+│                                                                           │
+│   To use the local CLI instead (recommended in SDK 46 and higher), run:   │
+│   › npx expo <command>                                                    │
+│                                                                           │
+└───────────────────────────────────────────────────────────────────────────┘
+Installing 1 SDK 52.0.0 compatible native module using npm.
+> npm install
+
+added 1 package, and audited 862 packages in 4s
+
+72 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+PS C:\Users\Administrator\Desktop\Attendansu\Attendance> eas build --platform android --profile preview
+★ eas-cli@15.0.9 is now available.
+To upgrade, run:
+npm install -g eas-cli
+Proceeding with outdated version.
+
+Using EAS CLI without version control system is not recommended, use this mode only if you know what you are doing.
+Resolved "preview" environment for the build. Learn more: https://docs.expo.dev/eas/environment-variables/#setting-the-environment-for-your-builds
+No environment variables with visibility "Plain text" and "Sensitive" found for the "preview" environment on EAS.
+
+Specified value for "android.package" in app.json is ignored because an android directory was detected in the project.
+EAS Build will use the value found in the native code.
+✔ Using remote Android credentials (Expo server)
+✔ Using Keystore from configuration: Build Credentials lDFdafk1iK (default)
+
+Compressing project files and uploading to EAS Build. Learn more: https://expo.fyi/eas-build-archive
+✔ Compressed project files 44s (91.1 MB)
+✔ Uploaded to EAS 12s
+✔ Computed project fingerprint
+
+Build details: https://expo.dev/accounts/gowthaminayam/projects/Attendance/builds/965dc43e-5b1b-4da1-8459-e5812259811f
+
+Waiting for build to complete. You can press Ctrl+C to exit.
+✖ Build failed
+
+🤖 Android build failed:
+Unknown error. See logs of the Bundle JavaScript build phase for more information.
+PS C:\Users\Administrator\Desktop\Attendansu\Attendance> npx expo install --check
+Dependencies are up to date
+PS C:\Users\Administrator\Desktop\Attendansu\Attendance> git rev-parse --show-toplevel exited with non-zero code: 128
+fatal: not a git repository (or any of the parent directories): .git
+PS C:\Users\Administrator\Desktop\Attendansu\Attendance> git status
+fatal: not a git repository (or any of the parent directories): .git
+PS C:\Users\Administrator\Desktop\Attendansu\Attendance>
+PS C:\Users\Administrator\Desktop\Attendansu\Attendance> git init
+Initialized empty Git repository in C:/Users/Administrator/Desktop/Attendansu/Attendance/.git/
+PS C:\Users\Administrator\Desktop\Attendansu\Attendance> git add .
+warning: in the working copy of '.gitignore', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'App.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'android/.gitignore', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'android/app/build.gradle', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'android/app/proguard-rules.pro', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'android/app/src/debug/AndroidManifest.xml', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'android/app/src/main/AndroidManifest.xml', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'android/app/src/main/java/com/gowthaminayam/Attendance/MainActivity.kt', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'android/app/src/main/java/com/gowthaminayam/Attendance/MainApplication.kt', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'android/app/src/main/res/drawable/ic_launcher_background.xml', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'android/app/src/main/res/drawable/rn_edit_text_material.xml', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'android/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'android/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'android/app/src/main/res/values/colors.xml', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'android/app/src/main/res/values/strings.xml', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'android/app/src/main/res/values/styles.xml', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'android/build.gradle', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'android/gradle.properties', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'android/gradle/wrapper/gradle-wrapper.properties', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'android/gradlew', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'android/settings.gradle', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'app.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'eas.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'index.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'package-lock.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'package.json', LF will be replaced by CRLF the next time Git touches it
+PS C:\Users\Administrator\Desktop\Attendansu\Attendance> git commit -m "Initial commit"
+[master (root-commit) 18c2293] Initial commit
+ 54 files changed, 11825 insertions(+)
+ create mode 100644 .gitignore
+ create mode 100644 App.js
+ create mode 100644 android/.gitignore
+ create mode 100644 android/app/build.gradle
+ create mode 100644 android/app/debug.keystore
+ create mode 100644 android/app/proguard-rules.pro
+ create mode 100644 android/app/src/debug/AndroidManifest.xml
+ create mode 100644 android/app/src/main/AndroidManifest.xml
+ create mode 100644 android/app/src/main/java/com/gowthaminayam/Attendance/MainActivity.kt
+ create mode 100644 android/app/src/main/java/com/gowthaminayam/Attendance/MainApplication.kt
+ create mode 100644 android/app/src/main/res/drawable-hdpi/splashscreen_logo.png
+ create mode 100644 android/app/src/main/res/drawable-mdpi/splashscreen_logo.png
+ create mode 100644 android/app/src/main/res/drawable-xhdpi/splashscreen_logo.png
+ create mode 100644 android/app/src/main/res/drawable-xxhdpi/splashscreen_logo.png
+ create mode 100644 android/app/src/main/res/drawable-xxxhdpi/splashscreen_logo.png
+ create mode 100644 android/app/src/main/res/drawable/ic_launcher_background.xml
+ create mode 100644 android/app/src/main/res/drawable/rn_edit_text_material.xml
+ create mode 100644 android/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml
+ create mode 100644 android/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml
+ create mode 100644 android/app/src/main/res/mipmap-hdpi/ic_launcher.webp
+ create mode 100644 android/app/src/main/res/mipmap-hdpi/ic_launcher_foreground.webp
+ create mode 100644 android/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp
+ create mode 100644 android/app/src/main/res/mipmap-mdpi/ic_launcher.webp
+ create mode 100644 android/app/src/main/res/mipmap-mdpi/ic_launcher_foreground.webp
+ create mode 100644 android/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp
+ create mode 100644 android/app/src/main/res/mipmap-xhdpi/ic_launcher.webp
+ create mode 100644 android/app/src/main/res/mipmap-xhdpi/ic_launcher_foreground.webp
+ create mode 100644 android/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp
+ create mode 100644 android/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp
+ create mode 100644 android/app/src/main/res/mipmap-xxhdpi/ic_launcher_foreground.webp
+ create mode 100644 android/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp
+ create mode 100644 android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp
+ create mode 100644 android/app/src/main/res/mipmap-xxxhdpi/ic_launcher_foreground.webp
+ create mode 100644 android/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp
+ create mode 100644 android/app/src/main/res/values-night/colors.xml
+ create mode 100644 android/app/src/main/res/values/colors.xml
+ create mode 100644 android/app/src/main/res/values/strings.xml
+ create mode 100644 android/app/src/main/res/values/styles.xml
+ create mode 100644 android/build.gradle
+ create mode 100644 android/gradle.properties
+ create mode 100644 android/gradle/wrapper/gradle-wrapper.jar
+ create mode 100644 android/gradle/wrapper/gradle-wrapper.properties
+ create mode 100644 android/gradlew
+ create mode 100644 android/gradlew.bat
+ create mode 100644 android/settings.gradle
+ create mode 100644 app.json
+ create mode 100644 assets/adaptive-icon.png
+ create mode 100644 assets/favicon.png
+ create mode 100644 assets/icon.png
+ create mode 100644 assets/splash-icon.png
+ create mode 100644 eas.json
+ create mode 100644 index.js
+ create mode 100644 package-lock.json
+ create mode 100644 package.json
+PS C:\Users\Administrator\Desktop\Attendansu\Attendance> eas build --platform android --profile preview
+★ eas-cli@15.0.9 is now available.
+To upgrade, run:
+npm install -g eas-cli
+Proceeding with outdated version.
+
+Using EAS CLI without version control system is not recommended, use this mode only if you know what you are doing.
+Resolved "preview" environment for the build. Learn more: https://docs.expo.dev/eas/environment-variables/#setting-the-environment-for-your-builds
+No environment variables with visibility "Plain text" and "Sensitive" found for the "preview" environment on EAS.
+
+Specified value for "android.package" in app.json is ignored because an android directory was detected in the project.
+EAS Build will use the value found in the native code.
+✔ Using remote Android credentials (Expo server)
+✔ Using Keystore from configuration: Build Credentials lDFdafk1iK (default)
+
+Compressing project files and uploading to EAS Build. Learn more: https://expo.fyi/eas-build-archive
+✔ Compressed project files 1m 20s (91.6 MB)
+✔ Uploaded to EAS 8s
+✔ Computed project fingerprint
+
+Build details: https://expo.dev/accounts/gowthaminayam/projects/Attendance/builds/f72d0544-e39a-4c41-97f0-7d55b14e43a7
+
+Waiting for build to complete. You can press Ctrl+C to exit.
+✖ Build failed
+
+🤖 Android build failed:
+Unknown error. See logs of the Bundle JavaScript build phase for more information.
+PS C:\Users\Administrator\Desktop\Attendansu\Attendance> https://expo.dev/accounts/gowthaminayam/projects/Attendance/builds/f72d0544-e39a-4c41-97f0-7d55b14e43a7
+https://expo.dev/accounts/gowthaminayam/projects/Attendance/builds/f72d0544-e39a-4c41-97f0-7d55b14e43a7 : The term
+'https://expo.dev/accounts/gowthaminayam/projects/Attendance/builds/f72d0544-e39a-4c41-97f0-7d55b14e43a7' is not recognized as the name of a cmdlet, function, script file,
+or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ https://expo.dev/accounts/gowthaminayam/projects/Attendance/builds/f7 ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (https://expo.de...f0-7d55b14e43a7:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\Users\Administrator\Desktop\Attendansu\Attendance> eas build --local --platform android --profile preview
+★ eas-cli@15.0.9 is now available.
+To upgrade, run:
+npm install -g eas-cli
+Proceeding with outdated version.
+
+Using EAS CLI without version control system is not recommended, use this mode only if you know what you are doing.
+Unsupported platform, macOS or Linux is required to build apps for Android
+    Error: build command failed.
+PS C:\Users\Administrator\Desktop\Attendansu\Attendance> npx expo install
+› Installing using npm
+> npm install
+
+up to date, audited 862 packages in 2s
+
+72 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+PS C:\Users\Administrator\Desktop\Attendansu\Attendance> npm install
+
+up to date, audited 862 packages in 2s
+
+72 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+PS C:\Users\Administrator\Desktop\Attendansu\Attendance> npm install -g eas-cli
+npm warn deprecated inflight@1.0.6: This module is not supported, and leaks memory. Do not use it. Check out lru-cache if you want a good and tested way to coalesce async requests by a key value, which is much more comprehensive and powerful.
+npm warn deprecated lodash.get@4.4.2: This package is deprecated. Use the optional chaining (?.) operator instead.
+npm warn deprecated rimraf@2.4.5: Rimraf versions prior to v4 are no longer supported
+npm warn deprecated @oclif/screen@3.0.8: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
+npm warn deprecated glob@6.0.4: Glob versions prior to v9 are no longer supported
+npm warn deprecated sudo-prompt@9.1.1: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
+npm warn deprecated @xmldom/xmldom@0.7.13: this version is no longer supported, please update to at least 0.8.*
+
+changed 443 packages in 30s
+
+53 packages are looking for funding
+  run `npm fund` for details
+PS C:\Users\Administrator\Desktop\Attendansu\Attendance> $env:EAS_NO_VCS="1"
+PS C:\Users\Administrator\Desktop\Attendansu\Attendance> eas build:configure
+Using EAS CLI without version control system is not recommended, use this mode only if you know what you are doing.
+💡 The following process will configure your iOS and/or Android project to be compatible with EAS Build. These changes only apply to your local project files and you can safely revert them at any time.
+
+√ Which platforms would you like to configure for EAS Build? » Android
+
+🎉 Your project is ready to build.
+
+- Run eas build when you are ready to create your first build.
+- Once the build is completed, run eas submit to upload the app to app stores.
+- Learn more about other capabilities of EAS Build: https://docs.expo.dev/build/introduction
+PS C:\Users\Administrator\Desktop\Attendansu\Attendance> eas build --platform android --profile preview
+Using EAS CLI without version control system is not recommended, use this mode only if you know what you are doing.
+Resolved "preview" environment for the build. Learn more: https://docs.expo.dev/eas/environment-variables/#setting-the-environment-for-your-builds
+No environment variables with visibility "Plain text" and "Sensitive" found for the "preview" environment on EAS.
+
+Specified value for "android.package" in app.json is ignored because an android directory was detected in the project.
+EAS Build will use the value found in the native code.
+✔ Using remote Android credentials (Expo server)
+✔ Using Keystore from configuration: Build Credentials lDFdafk1iK (default)
+
+Compressing project files and uploading to EAS Build. Learn more: https://expo.fyi/eas-build-archive
+✔ Uploaded to EAS 2s
+✔ Computed project fingerprint
+
+Build details: https://expo.dev/accounts/gowthaminayam/projects/Attendance/builds/312ca569-ee1b-4de8-a9b3-f979076a84ee
+
+Waiting for build to complete. You can press Ctrl+C to exit.
+✔ Build finished
+
+  ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
+  █ ▄▄▄▄▄ █▄▄▄ ▀  █▀▄▀▀▄▄▀██▀▄█▀█ ▄▄▄▄▄ █
+  █ █   █ ██▄▀ ▀   ▀▀▀██ ▄█  ▄▄ █ █   █ █
+  █ █▄▄▄█ ██▀▄ ▄▄██▀▄▀▄ ▄▄ █▄▄█ █ █▄▄▄█ █
+  █▄▄▄▄▄▄▄█ ▀▄█▄▀▄█▄█ █▄█▄▀▄▀▄█▄█▄▄▄▄▄▄▄█
+  █▄▄▀▄▄█▄▀▀ ▀▀▄█ ▀▀▄▀▀▀█▀  ▀ ▀▄█▄▀▀██▀▄█
+  █▀▀▄▀ █▄▄▀▀▄ █▄▄▄▄▀▄▀█▄▄▄▀▄█▄█▄▄▄▄▄ ▄▄█
+  █ █▄█▀█▄▄▄▀▄ ▄▀▄  █▀▄█▀█ █▀▀ ▀█▄▄▀ ▀ ▄█
+  █▀    ▀▄▄▀ ▄█▄██▄▄█▄▄██▀█▄▄█ █▀▄▀▄█▀▄ █
+  █ ▀ █▄█▄█▄▄▀▄▀ ▄ █▀▄▀ █ ▄█ ▀ ▄▀▄██ ▄▄▄█
+  █  ▄▀ █▄ █▀█▄  █▄ ▄█ ▄▄█ ▀ ▄ ▀▀█▄▀▀██ █
+  ██▄ ▀  ▄▄▀▄█ ▀█  ▀▄▄▀██▀▀▄█ ▀▄ ▄▀  ▀ ▄█
+  █▀ █▄▄ ▄  ▀█ ▀▄█▄▄▀▀██▄█ ██  ▄█  ▄▀▀▀ █
+  █▀▄ █▀▀▄ ▀ ▀ ▄█▄▀▄▀▄█▄▀█ ▄█▀  █▄▄▀█▀▀▄█
+  █ ▄ ▀ █▄ ▄▄█▀▄▄█  █▄▄▄█▀▀ ▄▄ █▄█ ▀  ▄ █
+  █▄█▄▄██▄▄▀▀▀▄▀▄  ██ ▀▀█ █▄ ▄█ ▄▄▄ █  ██
+  █ ▄▄▄▄▄ ███  █▀█▄█▄█▄ █  █▀██ █▄█  ▄▀▄█
+  █ █   █ █ █▀▀▀▀█ ▀▄▀ ██▀ ▄█▄ ▄  ▄▄ █▄▄█
+  █ █▄▄▄█ █▀ ▀  █ ▄▄ █▀▀▄▄▄ █▄ ██▀▄ █ ▀ █
+  █▄▄▄▄▄▄▄█▄█▄▄██▄▄▄███▄█▄▄████▄▄▄██▄██▄█
+
+
+🤖 Open this link on your Android devices (or scan the QR code) to install the app:
+https://expo.dev/accounts/gowthaminayam/projects/Attendance/builds/312ca569-ee1b-4de8-a9b3-f979076a84ee
+
+√ Install and run the Android build on an emulator? ... no
+PS C:\Users\Administrator\Desktop\Attendansu\Attendance>
