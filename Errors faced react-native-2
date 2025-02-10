@@ -1,0 +1,1384 @@
+PS C:\Users\Administrator\Desktop\Attendansu\Attendance> eas build:configure
+Using EAS CLI without version control system is not recommended, use this mode only if you know what you are doing.
+💡 The following process will configure your iOS and/or Android project to be compatible with EAS Build. These changes only apply to your local project files and you can safely revert them at any time.
+
+√ Which platforms would you like to configure for EAS Build? » Android
+
+🎉 Your project is ready to build.
+
+- Run eas build when you are ready to create your first build.
+- Once the build is completed, run eas submit to upload the app to app stores.
+- Learn more about other capabilities of EAS Build: https://docs.expo.dev/build/introduction
+PS C:\Users\Administrator\Desktop\Attendansu\Attendance> eas build --platform android --profile preview
+Using EAS CLI without version control system is not recommended, use this mode only if you know what you are doing.
+Resolved "preview" environment for the build. Learn more: https://docs.expo.dev/eas/environment-variables/#setting-the-environment-for-your-builds
+No environment variables with visibility "Plain text" and "Sensitive" found for the "preview" environment on EAS.
+
+Specified value for "android.package" in app.json is ignored because an android directory was detected in the project.
+EAS Build will use the value found in the native code.
+✔ Using remote Android credentials (Expo server)
+✔ Using Keystore from configuration: Build Credentials lDFdafk1iK (default)
+
+Compressing project files and uploading to EAS Build. Learn more: https://expo.fyi/eas-build-archive
+✔ Uploaded to EAS 2s
+
+Build details: https://expo.dev/accounts/gowthaminayam/projects/Attendance/builds/3eabc1ee-84c0-472e-b637-ffe71b1c751d
+
+Waiting for build to complete. You can press Ctrl+C to exit.
+✖ Build failed
+
+🤖 Android build failed:
+Gradle build failed with unknown error. See logs for the "Run gradlew" (https://expo.dev/accounts/gowthaminayam/projects/Attendance/builds/3eabc1ee-84c0-472e-b637-ffe71b1c751d#run-gradlew) phase for more information.
+PS C:\Users\Administrator\Desktop\Attendansu\Attendance> eas build:configure
+Using EAS CLI without version control system is not recommended, use this mode only if you know what you are doing.
+💡 The following process will configure your iOS and/or Android project to be compatible with EAS Build. These changes only apply to your local project files and you can safely revert them at any time.
+
+√ Which platforms would you like to configure for EAS Build? » Android
+
+🎉 Your project is ready to build.
+
+- Run eas build when you are ready to create your first build.
+- Once the build is completed, run eas submit to upload the app to app stores.
+- Learn more about other capabilities of EAS Build: https://docs.expo.dev/build/introduction
+PS C:\Users\Administrator\Desktop\Attendansu\Attendance> eas build --platform android --profile preview
+Using EAS CLI without version control system is not recommended, use this mode only if you know what you are doing.
+Resolved "preview" environment for the build. Learn more: https://docs.expo.dev/eas/environment-variables/#setting-the-environment-for-your-builds
+No environment variables with visibility "Plain text" and "Sensitive" found for the "preview" environment on EAS.
+
+Specified value for "android.package" in app.json is ignored because an android directory was detected in the project.
+EAS Build will use the value found in the native code.
+✔ Using remote Android credentials (Expo server)
+✔ Using Keystore from configuration: Build Credentials lDFdafk1iK (default)
+
+Compressing project files and uploading to EAS Build. Learn more: https://expo.fyi/eas-build-archive
+✔ Uploaded to EAS 2s
+
+Build details: https://expo.dev/accounts/gowthaminayam/projects/Attendance/builds/b5daa76f-e350-4ac0-bf1e-0364c1255328
+
+Waiting for build to complete. You can press Ctrl+C to exit.
+✖ Build failed
+
+🤖 Android build failed:
+Gradle build failed with unknown error. See logs for the "Run gradlew" (https://expo.dev/accounts/gowthaminayam/projects/Attendance/builds/b5daa76f-e350-4ac0-bf1e-0364c1255328#run-gradlew) phase for more information.
+PS C:\Users\Administrator\Desktop\Attendansu\Attendance> eas build:configure
+Using EAS CLI without version control system is not recommended, use this mode only if you know what you are doing.
+💡 The following process will configure your iOS and/or Android project to be compatible with EAS Build. These changes only apply to your local project files and you can safely revert them at any time.
+
+√ Which platforms would you like to configure for EAS Build? » Android
+
+🎉 Your project is ready to build.
+
+- Run eas build when you are ready to create your first build.
+- Once the build is completed, run eas submit to upload the app to app stores.
+- Learn more about other capabilities of EAS Build: https://docs.expo.dev/build/introduction
+PS C:\Users\Administrator\Desktop\Attendansu\Attendance> eas build --platform android --profile preview
+Using EAS CLI without version control system is not recommended, use this mode only if you know what you are doing.
+Resolved "preview" environment for the build. Learn more: https://docs.expo.dev/eas/environment-variables/#setting-the-environment-for-your-builds
+No environment variables with visibility "Plain text" and "Sensitive" found for the "preview" environment on EAS.
+
+Specified value for "android.package" in app.json is ignored because an android directory was detected in the project.
+EAS Build will use the value found in the native code.
+✔ Using remote Android credentials (Expo server)
+✔ Using Keystore from configuration: Build Credentials lDFdafk1iK (default)
+
+Compressing project files and uploading to EAS Build. Learn more: https://expo.fyi/eas-build-archive
+✔ Uploaded to EAS 2s
+✔ Computed project fingerprint
+
+Build details: https://expo.dev/accounts/gowthaminayam/projects/Attendance/builds/713c9e9b-5b07-4aae-b14e-ac72db4e554d
+
+Waiting for build to complete. You can press Ctrl+C to exit.
+✖ Build failed
+
+🤖 Android build failed:
+Unknown error. See logs of the Bundle JavaScript build phase for more information.
+PS C:\Users\Administrator\Desktop\Attendansu\Attendance> npm install -g expo-cli
+npm warn deprecated @npmcli/move-file@1.1.2: This functionality has been moved to @npmcli/fs
+npm warn deprecated osenv@0.1.5: This package is no longer supported.
+npm warn deprecated inflight@1.0.6: This module is not supported, and leaks memory. Do not use it. Check out lru-cache if you want a good and tested way to coalesce async requests by a key value, which is much more comprehensive and powerful.
+npm warn deprecated @babel/plugin-proposal-optional-catch-binding@7.18.6: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-optional-catch-binding instead.
+npm warn deprecated @babel/plugin-proposal-class-properties@7.18.6: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-class-properties instead.
+npm warn deprecated @babel/plugin-proposal-nullish-coalescing-operator@7.18.6: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-nullish-coalescing-operator instead.
+npm warn deprecated stable@0.1.8: Modern JS already guarantees Array#sort() is a stable sort, so this library is deprecated. See the compatibility table on MDN: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort#browser_compatibility
+npm warn deprecated rimraf@2.4.5: Rimraf versions prior to v4 are no longer supported
+npm warn deprecated rimraf@2.7.1: Rimraf versions prior to v4 are no longer supported
+npm warn deprecated @babel/plugin-proposal-optional-chaining@7.21.0: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-optional-chaining instead.
+npm warn deprecated @babel/plugin-proposal-object-rest-spread@7.20.7: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-object-rest-spread instead.
+npm warn deprecated rimraf@3.0.2: Rimraf versions prior to v4 are no longer supported
+npm warn deprecated glob@6.0.4: Glob versions prior to v9 are no longer supported
+npm warn deprecated @babel/plugin-proposal-async-generator-functions@7.20.7: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-async-generator-functions instead.
+npm warn deprecated abab@2.0.6: Use your platform's native atob() and btoa() methods instead
+npm warn deprecated glob@7.1.6: Glob versions prior to v9 are no longer supported
+npm warn deprecated sudo-prompt@9.1.1: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
+npm warn deprecated @xmldom/xmldom@0.7.13: this version is no longer supported, please update to at least 0.8.*
+npm warn deprecated sudo-prompt@8.2.5: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
+npm warn deprecated uuid@3.4.0: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+npm warn deprecated uuid@3.4.0: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+npm warn deprecated uuid@3.4.0: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+npm warn deprecated uuid@3.4.0: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+npm warn deprecated expo-cli@6.3.10: The global Expo CLI has been superseded by 'npx expo' and eas-cli –– Learn more: https://blog.expo.dev/the-new-expo-cli-f4250d8e3421
+
+changed 1298 packages in 57s
+
+185 packages are looking for funding
+  run `npm fund` for details
+PS C:\Users\Administrator\Desktop\Attendansu\Attendance> expo doctor
+WARNING: The legacy expo-cli does not support Node +17. Migrate to the new local Expo CLI: https://blog.expo.dev/the-new-expo-cli-f4250d8e3421.
+┌───────────────────────────────────────────────────────────────────────────┐
+│                                                                           │
+│   The global expo-cli package has been deprecated.                        │
+│                                                                           │
+│   The new Expo CLI is now bundled in your project in the expo package.    │
+│   Learn more: https://blog.expo.dev/the-new-expo-cli-f4250d8e3421.        │
+│                                                                           │
+│   To use the local CLI instead (recommended in SDK 46 and higher), run:   │
+│   › npx expo <command>                                                    │
+│                                                                           │
+└───────────────────────────────────────────────────────────────────────────┘
+'expo-cli doctor' is not supported for SDK 46 and higher. Use 'npx expo-doctor' instead.
+PS C:\Users\Administrator\Desktop\Attendansu\Attendance> npx expo-doctor
+Need to install the following packages:
+expo-doctor@1.12.5
+Ok to proceed? (y) y
+
+WARNING: We recommend using PowerShell or Bash via WSL 2 for development with Expo CLI on Windows. You may encounter issues using cmd.exe.
+
+Enabled experimental React Native Directory checks. Unset the EXPO_DOCTOR_ENABLE_DIRECTORY_CHECK environment variable to disable this check.
+✔ Check package.json for common issues
+✔ Check Expo config for common issues
+✔ Check native tooling versions
+✔ Check for common project setup issues
+✔ Check dependencies for packages that should not be installed directly
+✔ Check npm/ yarn versions
+✔ Check for issues with Metro config
+✖ Check for app config fields that may not be synced in a non-CNG project
+✔ Check if the project meets version requirements for submission to app stores
+✖ Validate packages against React Native Directory package metadata
+✔ Check Expo config (app.json/ app.config.js) schema
+✔ Check for legacy global CLI installed locally
+✔ Check that native modules do not use incompatible support packages
+✖ Check that packages match versions required by installed Expo SDK
+✖ Check that native modules use compatible support package versions for installed Expo SDK
+
+Detailed check results:
+
+Expected package metro@^0.81.0
+Found invalid:
+  metro@0.80.12
+  (for more info, run: npm why metro)
+Expected package metro-resolver@^0.81.0
+Found invalid:
+  metro-resolver@0.80.12
+  (for more info, run: npm why metro-resolver)
+Expected package metro-config@^0.81.0
+Found invalid:
+  metro-config@0.80.12
+  (for more info, run: npm why metro-config)
+Advice: Upgrade dependencies that are using the invalid package versions.
+
+This project contains native project folders but also has native configuration properties in app.json, indicating it is configured to use Prebuild. When the android/ios folders are present, EAS Build will not sync the following properties: orientation, icon, userInterfaceStyle, splash, ios, android.
+
+Advice: Add '/android' and '/ios' to your .gitignore file if you intend to use CNG / Prebuild. Learn more: https://docs.expo.dev/workflow/prebuild/#usage-with-eas-build
+
+The following issues were found when validating your dependencies against React Native Directory:
+Unmaintained: react-native-datepicker
+No metadata available: @expo/metro-runtime, @react-native-community/masked-view, bcrypt, body-parser, cors, express, moment-timezone, mysql2
+Advice:
+- Use libraries that are actively maintained and support the New Architecture. Find alternative libraries with https://reactnative.directory.
+- Add packages to expo.doctor.reactNativeDirectoryCheck.exclude in package.json to selectively skip validations, if the warning is not relevant.
+- Update React Native Directory to include metadata for unknown packages. Alternatively, set expo.doctor.reactNativeDirectoryCheck.listUnknownPackages in package.json to false to skip warnings about packages with no metadata, if the warning is not relevant.
+
+The following packages should be updated for best compatibility with the installed expo version:
+  @expo/metro-runtime@3.2.3 - expected version: ~4.0.1
+  @react-native-async-storage/async-storage@2.1.0 - expected version: 1.23.1
+  @react-native-picker/picker@2.7.7 - expected version: 2.9.0
+  expo-device@6.0.2 - expected version: ~7.0.2
+  expo-image-picker@15.0.7 - expected version: ~16.0.5
+  expo-linear-gradient@13.0.2 - expected version: ~14.0.2
+  expo-location@17.0.1 - expected version: ~18.0.5
+  expo-status-bar@1.12.1 - expected version: ~2.0.1
+  react@18.2.0 - expected version: 18.3.1
+  react-dom@18.2.0 - expected version: 18.3.1
+  react-native@0.74.5 - expected version: 0.76.7
+  react-native-gesture-handler@2.16.2 - expected version: ~2.20.2
+  react-native-reanimated@3.10.1 - expected version: ~3.16.1
+  react-native-safe-area-context@4.10.1 - expected version: 4.12.0
+  react-native-screens@3.31.1 - expected version: ~4.4.0
+  react-native-svg@15.10.1 - expected version: 15.8.0
+Your project may not work correctly until you install the expected versions of the packages.
+Found outdated dependencies
+Advice: Use 'npx expo install --check' to review and upgrade your dependencies.
+
+One or more checks failed, indicating possible issues with the project.
+PS C:\Users\Administrator\Desktop\Attendansu\Attendance> npx expo install --check
+The following packages should be updated for best compatibility with the installed expo version:
+  @expo/metro-runtime@3.2.3 - expected version: ~4.0.1
+  @react-native-async-storage/async-storage@2.1.0 - expected version: 1.23.1
+  @react-native-picker/picker@2.7.7 - expected version: 2.9.0
+  expo-device@6.0.2 - expected version: ~7.0.2
+  expo-image-picker@15.0.7 - expected version: ~16.0.5
+  expo-linear-gradient@13.0.2 - expected version: ~14.0.2
+  expo-location@17.0.1 - expected version: ~18.0.5
+  expo-status-bar@1.12.1 - expected version: ~2.0.1
+  react@18.2.0 - expected version: 18.3.1
+  react-dom@18.2.0 - expected version: 18.3.1
+  react-native@0.74.5 - expected version: 0.76.7
+  react-native-gesture-handler@2.16.2 - expected version: ~2.20.2
+  react-native-reanimated@3.10.1 - expected version: ~3.16.1
+  react-native-safe-area-context@4.10.1 - expected version: 4.12.0
+  react-native-screens@3.31.1 - expected version: ~4.4.0
+  react-native-svg@15.10.1 - expected version: 15.8.0
+Your project may not work correctly until you install the expected versions of the packages.
+√ Fix dependencies? ... yes
+› Installing 16 SDK 52.0.0 compatible native modules using npm
+> npm install
+npm warn ERESOLVE overriding peer dependency
+npm warn While resolving: attendance@1.0.0
+npm warn Found: react@18.2.0
+npm warn node_modules/react
+npm warn   react@"18.3.1" from the root project
+npm warn   30 more (@callstack/react-theme-provider, ...)
+npm warn
+npm warn Could not resolve dependency:
+npm warn peer react@"18.2.0" from react-native@0.74.5
+npm warn node_modules/react-native
+npm warn   react-native@"0.76.7" from the root project
+npm warn   24 more (@react-native-community/datetimepicker, ...)
+npm warn ERESOLVE overriding peer dependency
+npm warn While resolving: attendance@1.0.0
+npm warn Found: react@18.2.0
+npm warn node_modules/react
+npm warn   react@"18.3.1" from the root project
+npm warn   30 more (@callstack/react-theme-provider, ...)
+npm warn
+npm warn Could not resolve dependency:
+npm warn peer react@"18.2.0" from react-native@0.74.5
+npm warn node_modules/react-native
+npm warn   react-native@"0.76.7" from the root project
+npm warn   24 more (@react-native-community/datetimepicker, ...)
+npm warn ERESOLVE overriding peer dependency
+npm warn While resolving: attendance@1.0.0
+npm warn Found: react@18.2.0
+npm warn node_modules/react
+npm warn   react@"18.3.1" from the root project
+npm warn   30 more (@callstack/react-theme-provider, ...)
+npm warn
+npm warn Could not resolve dependency:
+npm warn peer react@"18.2.0" from react-native@0.74.5
+npm warn node_modules/react-native
+npm warn   react-native@"0.76.7" from the root project
+npm warn   24 more (@react-native-community/datetimepicker, ...)
+npm warn ERESOLVE overriding peer dependency
+npm warn While resolving: attendance@1.0.0
+npm warn Found: react@18.2.0
+npm warn node_modules/react
+npm warn   react@"18.3.1" from the root project
+npm warn   30 more (@callstack/react-theme-provider, ...)
+npm warn
+npm warn Could not resolve dependency:
+npm warn peer react@"18.2.0" from react-native@0.74.5
+npm warn node_modules/react-native
+npm warn   react-native@"0.76.7" from the root project
+npm warn   24 more (@react-native-community/datetimepicker, ...)
+npm warn ERESOLVE overriding peer dependency
+npm warn While resolving: attendance@1.0.0
+npm warn Found: react@18.2.0
+npm warn node_modules/react
+npm warn   react@"18.3.1" from the root project
+npm warn   30 more (@callstack/react-theme-provider, ...)
+npm warn
+npm warn Could not resolve dependency:
+npm warn peer react@"18.2.0" from react-native@0.74.5
+npm warn node_modules/react-native
+npm warn   react-native@"0.76.7" from the root project
+npm warn   24 more (@react-native-community/datetimepicker, ...)
+npm warn ERESOLVE overriding peer dependency
+npm warn While resolving: attendance@1.0.0
+npm warn Found: react@18.2.0
+npm warn node_modules/react
+npm warn   react@"18.3.1" from the root project
+npm warn   30 more (@callstack/react-theme-provider, ...)
+npm warn
+npm warn Could not resolve dependency:
+npm warn peer react@"18.2.0" from react-native@0.74.5
+npm warn node_modules/react-native
+npm warn   react-native@"0.76.7" from the root project
+npm warn   24 more (@react-native-community/datetimepicker, ...)
+npm warn ERESOLVE overriding peer dependency
+npm warn While resolving: attendance@1.0.0
+npm warn Found: react@18.2.0
+npm warn node_modules/react
+npm warn   react@"18.3.1" from the root project
+npm warn   30 more (@callstack/react-theme-provider, ...)
+npm warn
+npm warn Could not resolve dependency:
+npm warn peer react@"18.2.0" from react-native@0.74.5
+npm warn node_modules/react-native
+npm warn   react-native@"0.76.7" from the root project
+npm warn   24 more (@react-native-community/datetimepicker, ...)
+npm warn ERESOLVE overriding peer dependency
+npm warn While resolving: attendance@1.0.0
+npm warn Found: react@18.2.0
+npm warn node_modules/react
+npm warn   react@"18.3.1" from the root project
+npm warn   30 more (@callstack/react-theme-provider, ...)
+npm warn
+npm warn Could not resolve dependency:
+npm warn peer react@"18.2.0" from react-native@0.74.5
+npm warn node_modules/react-native
+npm warn   react-native@"0.76.7" from the root project
+npm warn   24 more (@react-native-community/datetimepicker, ...)
+npm warn ERESOLVE overriding peer dependency
+npm warn While resolving: attendance@1.0.0
+npm warn Found: react@18.2.0
+npm warn node_modules/react
+npm warn   react@"18.3.1" from the root project
+npm warn   30 more (@callstack/react-theme-provider, ...)
+npm warn
+npm warn Could not resolve dependency:
+npm warn peer react@"18.2.0" from react-native@0.74.5
+npm warn node_modules/react-native
+npm warn   react-native@"0.76.7" from the root project
+npm warn   24 more (@react-native-community/datetimepicker, ...)
+npm warn ERESOLVE overriding peer dependency
+npm warn While resolving: attendance@1.0.0
+npm warn Found: react@18.2.0
+npm warn node_modules/react
+npm warn   react@"18.3.1" from the root project
+npm warn   30 more (@callstack/react-theme-provider, ...)
+npm warn
+npm warn Could not resolve dependency:
+npm warn peer react@"18.2.0" from react-native@0.74.5
+npm warn node_modules/react-native
+npm warn   react-native@"0.76.7" from the root project
+npm warn   24 more (@react-native-community/datetimepicker, ...)
+npm warn ERESOLVE overriding peer dependency
+npm warn While resolving: attendance@1.0.0
+npm warn Found: react@18.2.0
+npm warn node_modules/react
+npm warn   react@"18.3.1" from the root project
+npm warn   30 more (@callstack/react-theme-provider, ...)
+npm warn
+npm warn Could not resolve dependency:
+npm warn peer react@"18.2.0" from react-native@0.74.5
+npm warn node_modules/react-native
+npm warn   react-native@"0.76.7" from the root project
+npm warn   24 more (@react-native-community/datetimepicker, ...)
+npm warn ERESOLVE overriding peer dependency
+npm warn While resolving: attendance@1.0.0
+npm warn Found: react@18.2.0
+npm warn node_modules/react
+npm warn   react@"18.3.1" from the root project
+npm warn   30 more (@callstack/react-theme-provider, ...)
+npm warn
+npm warn Could not resolve dependency:
+npm warn peer react@"18.2.0" from react-native@0.74.5
+npm warn node_modules/react-native
+npm warn   react-native@"0.76.7" from the root project
+npm warn   24 more (@react-native-community/datetimepicker, ...)
+npm warn ERESOLVE overriding peer dependency
+npm warn While resolving: attendance@1.0.0
+npm warn Found: react@18.2.0
+npm warn node_modules/react
+npm warn   react@"18.3.1" from the root project
+npm warn   30 more (@callstack/react-theme-provider, ...)
+npm warn
+npm warn Could not resolve dependency:
+npm warn peer react@"18.2.0" from react-native@0.74.5
+npm warn node_modules/react-native
+npm warn   react-native@"0.76.7" from the root project
+npm warn   24 more (@react-native-community/datetimepicker, ...)
+npm warn ERESOLVE overriding peer dependency
+npm warn While resolving: attendance@1.0.0
+npm warn Found: react@18.2.0
+npm warn node_modules/react
+npm warn   react@"18.3.1" from the root project
+npm warn   30 more (@callstack/react-theme-provider, ...)
+npm warn
+npm warn Could not resolve dependency:
+npm warn peer react@"18.2.0" from react-native@0.74.5
+npm warn node_modules/react-native
+npm warn   react-native@"0.76.7" from the root project
+npm warn   24 more (@react-native-community/datetimepicker, ...)
+npm warn ERESOLVE overriding peer dependency
+npm warn While resolving: attendance@1.0.0
+npm warn Found: react@18.2.0
+npm warn node_modules/react
+npm warn   react@"18.3.1" from the root project
+npm warn   30 more (@callstack/react-theme-provider, ...)
+npm warn
+npm warn Could not resolve dependency:
+npm warn peer react@"18.2.0" from react-native@0.74.5
+npm warn node_modules/react-native
+npm warn   react-native@"0.76.7" from the root project
+npm warn   24 more (@react-native-community/datetimepicker, ...)
+npm warn ERESOLVE overriding peer dependency
+npm warn While resolving: attendance@1.0.0
+npm warn Found: react@18.2.0
+npm warn node_modules/react
+npm warn   react@"18.3.1" from the root project
+npm warn   30 more (@callstack/react-theme-provider, ...)
+npm warn
+npm warn Could not resolve dependency:
+npm warn peer react@"18.2.0" from react-native@0.74.5
+npm warn node_modules/react-native
+npm warn   react-native@"0.76.7" from the root project
+npm warn   24 more (@react-native-community/datetimepicker, ...)
+npm warn ERESOLVE overriding peer dependency
+npm warn While resolving: attendance@1.0.0
+npm warn Found: react@18.2.0
+npm warn node_modules/react
+npm warn   react@"18.3.1" from the root project
+npm warn   30 more (@callstack/react-theme-provider, ...)
+npm warn
+npm warn Could not resolve dependency:
+npm warn peer react@"18.2.0" from react-native@0.74.5
+npm warn node_modules/react-native
+npm warn   react-native@"0.76.7" from the root project
+npm warn   24 more (@react-native-community/datetimepicker, ...)
+npm warn ERESOLVE overriding peer dependency
+npm warn While resolving: attendance@1.0.0
+npm warn Found: react@18.2.0
+npm warn node_modules/react
+npm warn   react@"18.3.1" from the root project
+npm warn   30 more (@callstack/react-theme-provider, ...)
+npm warn
+npm warn Could not resolve dependency:
+npm warn peer react@"18.2.0" from react-native@0.74.5
+npm warn node_modules/react-native
+npm warn   react-native@"0.76.7" from the root project
+npm warn   24 more (@react-native-community/datetimepicker, ...)
+
+added 38 packages, removed 163 packages, changed 49 packages, and audited 1029 packages in 47s
+
+96 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+PS C:\Users\Administrator\Desktop\Attendansu\Attendance> eas build:configure
+Using EAS CLI without version control system is not recommended, use this mode only if you know what you are doing.
+💡 The following process will configure your iOS and/or Android project to be compatible with EAS Build. These changes only apply to your local project files and you can safely revert them at any time.
+
+√ Which platforms would you like to configure for EAS Build? » Android
+
+🎉 Your project is ready to build.
+
+- Run eas build when you are ready to create your first build.
+- Once the build is completed, run eas submit to upload the app to app stores.
+- Learn more about other capabilities of EAS Build: https://docs.expo.dev/build/introduction
+PS C:\Users\Administrator\Desktop\Attendansu\Attendance> eas build --platform android --profile preview
+Using EAS CLI without version control system is not recommended, use this mode only if you know what you are doing.
+Resolved "preview" environment for the build. Learn more: https://docs.expo.dev/eas/environment-variables/#setting-the-environment-for-your-builds
+No environment variables with visibility "Plain text" and "Sensitive" found for the "preview" environment on EAS.
+
+Specified value for "android.package" in app.json is ignored because an android directory was detected in the project.
+EAS Build will use the value found in the native code.
+✔ Using remote Android credentials (Expo server)
+✔ Using Keystore from configuration: Build Credentials lDFdafk1iK (default)
+
+Compressing project files and uploading to EAS Build. Learn more: https://expo.fyi/eas-build-archive
+✔ Compressed project files 2s (586 KB)
+✔ Uploaded to EAS 2s
+⌛️ Computing the project fingerprint is taking longer than expected...
+⏩ To skip this step, set the environment variable: EAS_SKIP_AUTO_FINGERPRINT=1
+✔ Computed project fingerprint
+
+Build details: https://expo.dev/accounts/gowthaminayam/projects/Attendance/builds/819d1003-8ba4-4adf-b48d-9f19d0f3aa72
+
+Waiting for build to complete. You can press Ctrl+C to exit.
+✖ Build failed
+
+🤖 Android build failed:
+Unknown error. See logs of the Bundle JavaScript build phase for more information.
+PS C:\Users\Administrator\Desktop\Attendansu\Attendance> npm install expo-cli --global
+npm warn deprecated @npmcli/move-file@1.1.2: This functionality has been moved to @npmcli/fs
+npm warn deprecated osenv@0.1.5: This package is no longer supported.
+npm warn deprecated inflight@1.0.6: This module is not supported, and leaks memory. Do not use it. Check out lru-cache if you want a good and tested way to coalesce async requests by a key value, which is much more comprehensive and powerful.
+npm warn deprecated @babel/plugin-proposal-optional-catch-binding@7.18.6: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-optional-catch-binding instead.
+npm warn deprecated @babel/plugin-proposal-class-properties@7.18.6: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-class-properties instead.
+npm warn deprecated @babel/plugin-proposal-nullish-coalescing-operator@7.18.6: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-nullish-coalescing-operator instead.
+npm warn deprecated stable@0.1.8: Modern JS already guarantees Array#sort() is a stable sort, so this library is deprecated. See the compatibility table on MDN: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort#browser_compatibility
+npm warn deprecated rimraf@2.4.5: Rimraf versions prior to v4 are no longer supported
+npm warn deprecated rimraf@2.7.1: Rimraf versions prior to v4 are no longer supported
+npm warn deprecated @babel/plugin-proposal-optional-chaining@7.21.0: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-optional-chaining instead.
+npm warn deprecated @babel/plugin-proposal-object-rest-spread@7.20.7: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-object-rest-spread instead.
+npm warn deprecated rimraf@3.0.2: Rimraf versions prior to v4 are no longer supported
+npm warn deprecated glob@6.0.4: Glob versions prior to v9 are no longer supported
+npm warn deprecated @babel/plugin-proposal-async-generator-functions@7.20.7: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-async-generator-functions instead.
+npm warn deprecated abab@2.0.6: Use your platform's native atob() and btoa() methods instead
+npm warn deprecated glob@7.1.6: Glob versions prior to v9 are no longer supported
+npm warn deprecated sudo-prompt@9.1.1: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
+npm warn deprecated @xmldom/xmldom@0.7.13: this version is no longer supported, please update to at least 0.8.*
+npm warn deprecated sudo-prompt@8.2.5: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
+npm warn deprecated uuid@3.4.0: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+npm warn deprecated uuid@3.4.0: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+npm warn deprecated uuid@3.4.0: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+npm warn deprecated uuid@3.4.0: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+npm warn deprecated expo-cli@6.3.10: The global Expo CLI has been superseded by 'npx expo' and eas-cli –– Learn more: https://blog.expo.dev/the-new-expo-cli-f4250d8e3421
+
+changed 1298 packages in 55s
+
+185 packages are looking for funding
+  run `npm fund` for details
+PS C:\Users\Administrator\Desktop\Attendansu\Attendance> npm install
+
+up to date, audited 1029 packages in 14s
+
+96 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+PS C:\Users\Administrator\Desktop\Attendansu\Attendance> npx expo start -c
+Starting project at C:\Users\Administrator\Desktop\Attendansu\Attendance
+Starting Metro Bundler
+warning: Bundler cache is empty, rebuilding (this may take a minute)
+▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
+█ ▄▄▄▄▄ █ ██▀▀█▄▄▀█ ▄▄▄▄▄ █
+█ █   █ █  ▀█ ▀█ ▄█ █   █ █
+█ █▄▄▄█ █▀  █▄ ▀▄██ █▄▄▄█ █
+█▄▄▄▄▄▄▄█▄█ ▀▄█ ▀ █▄▄▄▄▄▄▄█
+█ ▄██▄▄▄█▀█▄█▄▀▄▀▄██ ▀▄▄ ▄█
+█ ▀ █  ▄██ ▄█▀█  ▀▀ █▄  ▀██
+█ ▀█ ▀█▄▀█▀▀▄ ▀▄▀▄▀▄▀▀▄ ▀██
+███ ▀ ▄▄▄▄▄▄ ▄▄▀▄▄▄█▄▀ ▀███
+█▄▄█▄▄▄▄▄▀▄▄▀▀█▄▄ ▄▄▄ ▀ ▄▄█
+█ ▄▄▄▄▄ █▀█  █▄█▀ █▄█ ▀▀▀▀█
+█ █   █ █▄ ▀ ▀█▄█▄▄ ▄▄▀ ▀▀█
+█ █▄▄▄█ █▀▄█ ███▄██▄▀█▀▀ ██
+█▄▄▄▄▄▄▄█▄█▄███▄████▄▄▄▄▄▄█
+
+› Metro waiting on exp://192.168.101.153:8081
+› Scan the QR code above with Expo Go (Android) or the Camera app (iOS)
+
+› Web is waiting on http://localhost:8081
+
+› Using Expo Go
+› Press s │ switch to development build
+
+› Press a │ open Android
+› Press w │ open web
+
+› Press j │ open debugger
+› Press r │ reload app
+› Press m │ toggle menu
+› shift+m │ more tools
+› Press o │ open project code in your editor
+
+› Press ? │ show all commands
+
+Logs for your project will appear below. Press Ctrl+C to exit.
+› Stopped server
+PS C:\Users\Administrator\Desktop\Attendansu\Attendance> npx expo install expo
+› Installing 1 SDK 52.0.0 compatible native module using npm
+> npm install
+
+up to date, audited 1029 packages in 2s
+
+96 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+PS C:\Users\Administrator\Desktop\Attendansu\Attendance> npx expo doctor
+
+  $ expo doctor is not supported in the local CLI, please use npx expo-doctor instead
+
+PS C:\Users\Administrator\Desktop\Attendansu\Attendance> npx expo-doctor
+WARNING: We recommend using PowerShell or Bash via WSL 2 for development with Expo CLI on Windows. You may encounter issues using cmd.exe.
+
+Enabled experimental React Native Directory checks. Unset the EXPO_DOCTOR_ENABLE_DIRECTORY_CHECK environment variable to disable this check.
+✔ Check package.json for common issues
+✔ Check Expo config for common issues
+✔ Check native tooling versions
+✔ Check for common project setup issues
+✔ Check dependencies for packages that should not be installed directly
+✔ Check npm/ yarn versions
+✔ Check for issues with Metro config
+✖ Check for app config fields that may not be synced in a non-CNG project
+✔ Check if the project meets version requirements for submission to app stores
+✖ Validate packages against React Native Directory package metadata
+✔ Check Expo config (app.json/ app.config.js) schema
+✔ Check that native modules do not use incompatible support packages
+✔ Check for legacy global CLI installed locally
+✔ Check that packages match versions required by installed Expo SDK
+✔ Check that native modules use compatible support package versions for installed Expo SDK
+
+Detailed check results:
+
+This project contains native project folders but also has native configuration properties in app.json, indicating it is configured to use Prebuild. When the android/ios folders are present, EAS Build will not sync the following properties: orientation, icon, userInterfaceStyle, splash, ios, android.
+
+Advice: Add '/android' and '/ios' to your .gitignore file if you intend to use CNG / Prebuild. Learn more: https://docs.expo.dev/workflow/prebuild/#usage-with-eas-build
+
+The following issues were found when validating your dependencies against React Native Directory:
+Unmaintained: react-native-datepicker
+No metadata available: @expo/metro-runtime, @react-native-community/masked-view, bcrypt, body-parser, cors, express, moment-timezone, mysql2
+Advice:
+- Use libraries that are actively maintained and support the New Architecture. Find alternative libraries with https://reactnative.directory.
+- Add packages to expo.doctor.reactNativeDirectoryCheck.exclude in package.json to selectively skip validations, if the warning is not relevant.
+- Update React Native Directory to include metadata for unknown packages. Alternatively, set expo.doctor.reactNativeDirectoryCheck.listUnknownPackages in package.json to false to skip warnings about packages with no metadata, if the warning is not relevant.
+
+One or more checks failed, indicating possible issues with the project.
+PS C:\Users\Administrator\Desktop\Attendansu\Attendance> rm -rf android ios
+Remove-Item : A parameter cannot be found that matches parameter name 'rf'.
+At line:1 char:4
++ rm -rf android ios
++    ~~~
+    + CategoryInfo          : InvalidArgument: (:) [Remove-Item], ParameterBindingException
+    + FullyQualifiedErrorId : NamedParameterNotFound,Microsoft.PowerShell.Commands.RemoveItemCommand
+
+PS C:\Users\Administrator\Desktop\Attendansu\Attendance> rd /s /q android
+Remove-Item : A positional parameter cannot be found that accepts argument '/q'.
+At line:1 char:1
++ rd /s /q android
++ ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Remove-Item], ParameterBindingException
+    + FullyQualifiedErrorId : PositionalParameterNotFound,Microsoft.PowerShell.Commands.RemoveItemCommand
+
+PS C:\Users\Administrator\Desktop\Attendansu\Attendance> Remove-Item -Recurse -Force android, ios
+Remove-Item : Cannot find path 'C:\Users\Administrator\Desktop\Attendansu\Attendance\ios' because it does not exist.
+At line:1 char:1
++ Remove-Item -Recurse -Force android, ios
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\Admini...\Attendance\ios:String) [Remove-Item], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.RemoveItemCommand
+
+PS C:\Users\Administrator\Desktop\Attendansu\Attendance> npx expo prebuild
+√ Created native directory
+√ Updated package.json | no changes
+√ Finished prebuild
+PS C:\Users\Administrator\Desktop\Attendansu\Attendance> npx expo-doctor
+WARNING: We recommend using PowerShell or Bash via WSL 2 for development with Expo CLI on Windows. You may encounter issues using cmd.exe.
+
+Enabled experimental React Native Directory checks. Unset the EXPO_DOCTOR_ENABLE_DIRECTORY_CHECK environment variable to disable this check.
+✔ Check package.json for common issues
+✔ Check Expo config for common issues
+✔ Check native tooling versions
+✔ Check for common project setup issues
+✔ Check dependencies for packages that should not be installed directly
+✔ Check npm/ yarn versions
+✔ Check for issues with Metro config
+✔ Check if the project meets version requirements for submission to app stores
+✖ Check for app config fields that may not be synced in a non-CNG project
+✖ Validate packages against React Native Directory package metadata
+✔ Check Expo config (app.json/ app.config.js) schema
+✔ Check for legacy global CLI installed locally
+✔ Check that native modules do not use incompatible support packages
+✔ Check that native modules use compatible support package versions for installed Expo SDK
+✔ Check that packages match versions required by installed Expo SDK
+
+Detailed check results:
+
+This project contains native project folders but also has native configuration properties in app.json, indicating it is configured to use Prebuild. When the android/ios folders are present, EAS Build will not sync the following properties: orientation, icon, userInterfaceStyle, splash, ios, android.
+
+Advice: Add '/android' and '/ios' to your .gitignore file if you intend to use CNG / Prebuild. Learn more: https://docs.expo.dev/workflow/prebuild/#usage-with-eas-build
+
+The following issues were found when validating your dependencies against React Native Directory:
+Unmaintained: react-native-datepicker
+No metadata available: @expo/metro-runtime, @react-native-community/masked-view, bcrypt, body-parser, cors, express, moment-timezone, mysql2
+Advice:
+- Use libraries that are actively maintained and support the New Architecture. Find alternative libraries with https://reactnative.directory.
+- Add packages to expo.doctor.reactNativeDirectoryCheck.exclude in package.json to selectively skip validations, if the warning is not relevant.
+- Update React Native Directory to include metadata for unknown packages. Alternatively, set expo.doctor.reactNativeDirectoryCheck.listUnknownPackages in package.json to false to skip warnings about packages with no metadata, if the warning is not relevant.
+
+One or more checks failed, indicating possible issues with the project.
+PS C:\Users\Administrator\Desktop\Attendansu\Attendance> npx expo-doctor
+WARNING: We recommend using PowerShell or Bash via WSL 2 for development with Expo CLI on Windows. You may encounter issues using cmd.exe.
+
+Enabled experimental React Native Directory checks. Unset the EXPO_DOCTOR_ENABLE_DIRECTORY_CHECK environment variable to disable this check.
+✔ Check package.json for common issues
+✔ Check Expo config for common issues
+✔ Check native tooling versions
+✔ Check for common project setup issues
+✔ Check dependencies for packages that should not be installed directly
+✔ Check npm/ yarn versions
+✔ Check for issues with Metro config
+✖ Check for app config fields that may not be synced in a non-CNG project
+✔ Check if the project meets version requirements for submission to app stores
+✖ Validate packages against React Native Directory package metadata
+✔ Check for legacy global CLI installed locally
+✖ Check Expo config (app.json/ app.config.js) schema
+✔ Check that native modules do not use incompatible support packages
+✔ Check that packages match versions required by installed Expo SDK
+✔ Check that native modules use compatible support package versions for installed Expo SDK
+
+Detailed check results:
+
+Error: Problems validating asset fields in C:\Users\Administrator\Desktop\Attendansu\Attendance\app.json. Learn more: https://docs.expo.dev/
+ • Field: Splash.image - cannot access file at './assets/splash-icon.png'.
+
+This project contains native project folders but also has native configuration properties in app.json, indicating it is configured to use Prebuild. When the android/ios folders are present, EAS Build will not sync the following properties: orientation, icon, userInterfaceStyle, splash, ios, android.
+
+Advice: Add '/android' and '/ios' to your .gitignore file if you intend to use CNG / Prebuild. Learn more: https://docs.expo.dev/workflow/prebuild/#usage-with-eas-build
+
+The following issues were found when validating your dependencies against React Native Directory:
+Unmaintained: react-native-datepicker
+No metadata available: @expo/metro-runtime, @react-native-community/masked-view, bcrypt, body-parser, cors, express, moment-timezone, mysql2
+Advice:
+- Use libraries that are actively maintained and support the New Architecture. Find alternative libraries with https://reactnative.directory.
+- Add packages to expo.doctor.reactNativeDirectoryCheck.exclude in package.json to selectively skip validations, if the warning is not relevant.
+- Update React Native Directory to include metadata for unknown packages. Alternatively, set expo.doctor.reactNativeDirectoryCheck.listUnknownPackages in package.json to false to skip warnings about packages with no metadata, if the warning is not relevant.
+
+One or more checks failed, indicating possible issues with the project.
+PS C:\Users\Administrator\Desktop\Attendansu\Attendance> npm uninstall react-native-datepicker
+
+removed 1 package, and audited 1028 packages in 2s
+
+96 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+PS C:\Users\Administrator\Desktop\Attendansu\Attendance> npm install react-native-date-picker
+
+changed 1 package, and audited 1028 packages in 3s
+
+96 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+PS C:\Users\Administrator\Desktop\Attendansu\Attendance> npm update
+npm warn deprecated glob@7.2.3: Glob versions prior to v9 are no longer supported
+npm warn deprecated glob@7.2.3: Glob versions prior to v9 are no longer supported
+npm warn deprecated glob@7.2.3: Glob versions prior to v9 are no longer supported
+npm warn deprecated glob@7.2.3: Glob versions prior to v9 are no longer supported
+npm warn deprecated glob@7.2.3: Glob versions prior to v9 are no longer supported
+
+added 45 packages, removed 41 packages, changed 16 packages, and audited 1032 packages in 36s
+
+97 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+PS C:\Users\Administrator\Desktop\Attendansu\Attendance> npx expo-doctor
+WARNING: We recommend using PowerShell or Bash via WSL 2 for development with Expo CLI on Windows. You may encounter issues using cmd.exe.
+
+Enabled experimental React Native Directory checks. Unset the EXPO_DOCTOR_ENABLE_DIRECTORY_CHECK environment variable to disable this check.
+✔ Check package.json for common issues
+✔ Check Expo config for common issues
+✔ Check native tooling versions
+✔ Check for common project setup issues
+✔ Check dependencies for packages that should not be installed directly
+✔ Check npm/ yarn versions
+✔ Check for issues with Metro config
+✔ Check if the project meets version requirements for submission to app stores
+✖ Check for app config fields that may not be synced in a non-CNG project
+✖ Validate packages against React Native Directory package metadata
+✖ Check Expo config (app.json/ app.config.js) schema
+✔ Check that native modules do not use incompatible support packages
+✔ Check for legacy global CLI installed locally
+✖ Check that packages match versions required by installed Expo SDK
+✔ Check that native modules use compatible support package versions for installed Expo SDK
+
+Detailed check results:
+
+Error: Problems validating asset fields in C:\Users\Administrator\Desktop\Attendansu\Attendance\app.json. Learn more: https://docs.expo.dev/
+ • Field: Splash.image - cannot access file at './assets/splash-icon.png'.
+
+This project contains native project folders but also has native configuration properties in app.json, indicating it is configured to use Prebuild. When the android/ios folders are present, EAS Build will not sync the following properties: orientation, icon, userInterfaceStyle, splash, ios, android.
+
+Advice: Add '/android' and '/ios' to your .gitignore file if you intend to use CNG / Prebuild. Learn more: https://docs.expo.dev/workflow/prebuild/#usage-with-eas-build
+
+The following issues were found when validating your dependencies against React Native Directory:
+No metadata available: @expo/metro-runtime, @react-native-community/masked-view, bcrypt, body-parser, cors, express, moment-timezone, mysql2
+Advice:
+- Update React Native Directory to include metadata for unknown packages. Alternatively, set expo.doctor.reactNativeDirectoryCheck.listUnknownPackages in package.json to false to skip warnings about packages with no metadata, if the warning is not relevant.
+
+The following packages should be updated for best compatibility with the installed expo version:
+  @react-native-community/datetimepicker@8.3.0 - expected version: 8.2.0
+Your project may not work correctly until you install the expected versions of the packages.
+Found outdated dependencies
+Advice: Use 'npx expo install --check' to review and upgrade your dependencies.
+
+One or more checks failed, indicating possible issues with the project.
+PS C:\Users\Administrator\Desktop\Attendansu\Attendance> npm outdated
+Package                                    Current  Wanted   Latest  Location                                                Depended by
+@react-native-async-storage/async-storage   1.23.1  1.23.1    2.1.1  node_modules/@react-native-async-storage/async-storage  Attendance
+@react-native-picker/picker                  2.9.0   2.9.0   2.11.0  node_modules/@react-native-picker/picker                Attendance
+@react-navigation/native                    6.1.18  6.1.18   7.0.14  node_modules/@react-navigation/native                   Attendance
+@react-navigation/stack                      6.4.1   6.4.1    7.1.1  node_modules/@react-navigation/stack                    Attendance
+react                                       18.3.1  18.3.1   19.0.0  node_modules/react                                      Attendance
+react-dom                                   18.3.1  18.3.1   19.0.0  node_modules/react-dom                                  Attendance
+react-native                                0.76.7  0.76.7   0.77.0  node_modules/react-native                               Attendance
+react-native-gesture-handler                2.20.2  2.20.2   2.23.0  node_modules/react-native-gesture-handler               Attendance
+react-native-safe-area-context              4.12.0  4.12.0    5.2.0  node_modules/react-native-safe-area-context             Attendance
+react-native-screens                         4.4.0   4.4.0    4.6.0  node_modules/react-native-screens                       Attendance
+react-native-svg                            15.8.0  15.8.0  15.11.1  node_modules/react-native-svg                           Attendance
+PS C:\Users\Administrator\Desktop\Attendansu\Attendance> npm install @react-native-async-storage/async-storage@latest \
+npm error code ENOENT
+npm error syscall open
+npm error path C:\package.json
+npm error errno -4058
+npm error enoent Could not read package.json: Error: ENOENT: no such file or directory, open 'C:\package.json'
+npm error enoent This is related to npm not being able to find a file.
+npm error enoent
+npm error A complete log of this run can be found in: C:\Users\Administrator\AppData\Local\npm-cache\_logs\2025-02-10T06_21_19_122Z-debug-0.log
+PS C:\Users\Administrator\Desktop\Attendansu\Attendance>   @react-native-picker/picker@latest \
+At line:1 char:9
++   @react-native-picker/picker@latest \
++         ~~~~~~~
+Unexpected token '-native' in expression or statement.
+At line:1 char:16
++   @react-native-picker/picker@latest \
++                ~~~~~~~~~~~~~~~~~~~~~
+Unexpected token '-picker/picker@latest' in expression or statement.
+At line:1 char:3
++   @react-native-picker/picker@latest \
++   ~~~~~~
+The splatting operator '@' cannot be used to reference variables in an expression. '@react' can be used only as an argument to a command. To reference variables in an
+expression use '$react'.
+    + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordException
+    + FullyQualifiedErrorId : UnexpectedToken
+
+PS C:\Users\Administrator\Desktop\Attendansu\Attendance>   @react-navigation/native@latest \
+At line:1 char:9
++   @react-navigation/native@latest \
++         ~~~~~~~~~~~
+Unexpected token '-navigation' in expression or statement.
+At line:1 char:20
++   @react-navigation/native@latest \
++                    ~~~~~~~~~~~~~~
+Unexpected token '/native@latest' in expression or statement.
+At line:1 char:3
++   @react-navigation/native@latest \
++   ~~~~~~
+The splatting operator '@' cannot be used to reference variables in an expression. '@react' can be used only as an argument to a command. To reference variables in an
+expression use '$react'.
+    + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordException
+    + FullyQualifiedErrorId : UnexpectedToken
+
+PS C:\Users\Administrator\Desktop\Attendansu\Attendance>   @react-navigation/stack@latest \
+At line:1 char:9
++   @react-navigation/stack@latest \
++         ~~~~~~~~~~~
+Unexpected token '-navigation' in expression or statement.
+At line:1 char:20
++   @react-navigation/stack@latest \
++                    ~~~~~~~~~~~~~
+Unexpected token '/stack@latest' in expression or statement.
+At line:1 char:3
++   @react-navigation/stack@latest \
++   ~~~~~~
+The splatting operator '@' cannot be used to reference variables in an expression. '@react' can be used only as an argument to a command. To reference variables in an
+expression use '$react'.
+    + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordException
+    + FullyQualifiedErrorId : UnexpectedToken
+
+PS C:\Users\Administrator\Desktop\Attendansu\Attendance>   react@latest \
+react@latest : The term 'react@latest' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path
+was included, verify that the path is correct and try again.
+At line:1 char:3
++   react@latest \
++   ~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (react@latest:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\Users\Administrator\Desktop\Attendansu\Attendance>   react-dom@latest \
+react-dom@latest : The term 'react-dom@latest' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if
+a path was included, verify that the path is correct and try again.
+At line:1 char:3
++   react-dom@latest \
++   ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (react-dom@latest:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\Users\Administrator\Desktop\Attendansu\Attendance>   react-native@latest \
+react-native@latest : The term 'react-native@latest' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name,
+or if a path was included, verify that the path is correct and try again.
+At line:1 char:3
++   react-native@latest \
++   ~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (react-native@latest:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\Users\Administrator\Desktop\Attendansu\Attendance>   react-native-gesture-handler@latest \
+react-native-gesture-handler@latest : The term 'react-native-gesture-handler@latest' is not recognized as the name of a cmdlet, function, script file, or operable program.
+Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:3
++   react-native-gesture-handler@latest \
++   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (react-native-gesture-handler@latest:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\Users\Administrator\Desktop\Attendansu\Attendance>   react-native-safe-area-context@latest \
+react-native-safe-area-context@latest : The term 'react-native-safe-area-context@latest' is not recognized as the name of a cmdlet, function, script file, or operable
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:3
++   react-native-safe-area-context@latest \
++   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (react-native-safe-area-context@latest:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\Users\Administrator\Desktop\Attendansu\Attendance>   react-native-screens@latest \
+react-native-screens@latest : The term 'react-native-screens@latest' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the
+spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:3
++   react-native-screens@latest \
++   ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (react-native-screens@latest:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\Users\Administrator\Desktop\Attendansu\Attendance>   react-native-svg@latest
+react-native-svg@latest : The term 'react-native-svg@latest' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of
+the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:3
++   react-native-svg@latest
++   ~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (react-native-svg@latest:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\Users\Administrator\Desktop\Attendansu\Attendance> npm install @react-native-async-storage/async-storage@latest @react-native-picker/picker@latest @react-navigation/native@latest @react-navigation/stack@latest react@latest react-dom@latest react-native@latest react-native-gesture-handler@latest react-native-safe-area-context@latest react-native-screens@latest react-native-svg@latest
+npm error code ERESOLVE
+npm error ERESOLVE unable to resolve dependency tree
+npm error
+npm error While resolving: attendance@1.0.0
+npm error Found: react@19.0.0
+npm error node_modules/react
+npm error   react@"19.0.0" from the root project
+npm error
+npm error Could not resolve dependency:
+npm error peer react@"^18.2.0" from react-native@0.77.0
+npm error node_modules/react-native
+npm error   react-native@"0.77.0" from the root project
+npm error   peer react-native@"^0.0.0-0 || >=0.65 <1.0" from @react-native-async-storage/async-storage@2.1.1
+npm error   node_modules/@react-native-async-storage/async-storage
+npm error     @react-native-async-storage/async-storage@"2.1.1" from the root project
+npm error
+npm error Fix the upstream dependency conflict, or retry
+npm error this command with --force or --legacy-peer-deps
+npm error to accept an incorrect (and potentially broken) dependency resolution.
+npm error
+npm error
+npm error For a full report see:
+npm error C:\Users\Administrator\AppData\Local\npm-cache\_logs\2025-02-10T06_21_41_593Z-eresolve-report.txt
+npm error A complete log of this run can be found in: C:\Users\Administrator\AppData\Local\npm-cache\_logs\2025-02-10T06_21_41_593Z-debug-0.log
+PS C:\Users\Administrator\Desktop\Attendansu\Attendance> npm install react@18.2.0 react-dom@18.2.0
+npm warn ERESOLVE overriding peer dependency
+npm warn While resolving: attendance@1.0.0
+npm warn Found: react@18.3.1
+npm warn node_modules/react
+npm warn   peer react@">=16.3.0" from @callstack/react-theme-provider@3.0.9
+npm warn   node_modules/@callstack/react-theme-provider
+npm warn     @callstack/react-theme-provider@"^3.0.9" from react-native-paper@5.13.1
+npm warn     node_modules/react-native-paper
+npm warn   29 more (@react-native-community/datetimepicker, ...)
+npm warn
+npm warn Could not resolve dependency:
+npm warn peer react@"^18.3.1" from react-dom@18.3.1
+npm warn node_modules/react-dom
+npm warn   peer react-dom@"^18.0.0" from react-native-web@0.19.13
+npm warn   node_modules/react-native-web
+npm warn   1 more (the root project)
+npm warn ERESOLVE overriding peer dependency
+npm warn While resolving: attendance@1.0.0
+npm warn Found: react@18.3.1
+npm warn node_modules/react
+npm warn   peer react@">=16.3.0" from @callstack/react-theme-provider@3.0.9
+npm warn   node_modules/@callstack/react-theme-provider
+npm warn     @callstack/react-theme-provider@"^3.0.9" from react-native-paper@5.13.1
+npm warn     node_modules/react-native-paper
+npm warn   29 more (@react-native-community/datetimepicker, ...)
+npm warn
+npm warn Could not resolve dependency:
+npm warn peer react@"^18.3.1" from react-dom@18.3.1
+npm warn node_modules/react-dom
+npm warn   peer react-dom@"^18.0.0" from react-native-web@0.19.13
+npm warn   node_modules/react-native-web
+npm warn   1 more (the root project)
+
+changed 2 packages, and audited 1032 packages in 2s
+
+97 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+PS C:\Users\Administrator\Desktop\Attendansu\Attendance> npm install @react-native-async-storage/async-storage@latest @react-native-picker/picker@latest @react-navigation/native@latest @react-navigation/stack@latest react-native@latest react-native-gesture-handler@latest react-native-safe-area-context@latest react-native-screens@latest react-native-svg@latest
+npm warn deprecated glob@7.2.3: Glob versions prior to v9 are no longer supported
+
+added 30 packages, removed 10 packages, changed 19 packages, and audited 1052 packages in 34s
+
+94 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+PS C:\Users\Administrator\Desktop\Attendansu\Attendance> npx expo-doctor
+WARNING: We recommend using PowerShell or Bash via WSL 2 for development with Expo CLI on Windows. You may encounter issues using cmd.exe.
+
+Enabled experimental React Native Directory checks. Unset the EXPO_DOCTOR_ENABLE_DIRECTORY_CHECK environment variable to disable this check.
+✔ Check package.json for common issues
+✔ Check Expo config for common issues
+✔ Check native tooling versions
+✔ Check for common project setup issues
+✔ Check dependencies for packages that should not be installed directly
+✔ Check npm/ yarn versions
+✔ Check for issues with Metro config
+✔ Check if the project meets version requirements for submission to app stores
+✖ Check for app config fields that may not be synced in a non-CNG project
+✖ Validate packages against React Native Directory package metadata
+✖ Check Expo config (app.json/ app.config.js) schema
+✔ Check for legacy global CLI installed locally
+✔ Check that native modules do not use incompatible support packages
+✖ Check that packages match versions required by installed Expo SDK
+✔ Check that native modules use compatible support package versions for installed Expo SDK
+
+Detailed check results:
+
+Error: Problems validating asset fields in C:\Users\Administrator\Desktop\Attendansu\Attendance\app.json. Learn more: https://docs.expo.dev/
+ • Field: Splash.image - cannot access file at './assets/splash-icon.png'.
+
+This project contains native project folders but also has native configuration properties in app.json, indicating it is configured to use Prebuild. When the android/ios folders are present, EAS Build will not sync the following properties: orientation, icon, userInterfaceStyle, splash, ios, android.
+
+Advice: Add '/android' and '/ios' to your .gitignore file if you intend to use CNG / Prebuild. Learn more: https://docs.expo.dev/workflow/prebuild/#usage-with-eas-build
+
+The following issues were found when validating your dependencies against React Native Directory:
+No metadata available: @expo/metro-runtime, @react-native-community/masked-view, bcrypt, body-parser, cors, express, moment-timezone, mysql2
+Advice:
+- Update React Native Directory to include metadata for unknown packages. Alternatively, set expo.doctor.reactNativeDirectoryCheck.listUnknownPackages in package.json to false to skip warnings about packages with no metadata, if the warning is not relevant.
+
+The following packages should be updated for best compatibility with the installed expo version:
+  @react-native-async-storage/async-storage@2.1.1 - expected version: 1.23.1
+  @react-native-community/datetimepicker@8.3.0 - expected version: 8.2.0
+  @react-native-picker/picker@2.11.0 - expected version: 2.9.0
+  react@18.2.0 - expected version: 18.3.1
+  react-dom@18.2.0 - expected version: 18.3.1
+  react-native@0.77.0 - expected version: 0.76.7
+  react-native-gesture-handler@2.23.0 - expected version: ~2.20.2
+  react-native-safe-area-context@5.2.0 - expected version: 4.12.0
+  react-native-screens@4.6.0 - expected version: ~4.4.0
+  react-native-svg@15.11.1 - expected version: 15.8.0
+Your project may not work correctly until you install the expected versions of the packages.
+Found outdated dependencies
+Advice: Use 'npx expo install --check' to review and upgrade your dependencies.
+
+One or more checks failed, indicating possible issues with the project.
+PS C:\Users\Administrator\Desktop\Attendansu\Attendance> npx expo-doctor
+WARNING: We recommend using PowerShell or Bash via WSL 2 for development with Expo CLI on Windows. You may encounter issues using cmd.exe.
+
+Enabled experimental React Native Directory checks. Unset the EXPO_DOCTOR_ENABLE_DIRECTORY_CHECK environment variable to disable this check.
+✔ Check package.json for common issues
+✔ Check Expo config for common issues
+✔ Check native tooling versions
+✔ Check for common project setup issues
+✔ Check dependencies for packages that should not be installed directly
+✔ Check npm/ yarn versions
+✔ Check for issues with Metro config
+✔ Check if the project meets version requirements for submission to app stores
+✖ Check for app config fields that may not be synced in a non-CNG project
+✖ Validate packages against React Native Directory package metadata
+✔ Check Expo config (app.json/ app.config.js) schema
+✔ Check that native modules do not use incompatible support packages
+✔ Check for legacy global CLI installed locally
+✖ Check that packages match versions required by installed Expo SDK
+✔ Check that native modules use compatible support package versions for installed Expo SDK
+
+Detailed check results:
+
+This project contains native project folders but also has native configuration properties in app.json, indicating it is configured to use Prebuild. When the android/ios folders are present, EAS Build will not sync the following properties: orientation, icon, userInterfaceStyle, splash, ios, android.
+
+Advice: Add '/android' and '/ios' to your .gitignore file if you intend to use CNG / Prebuild. Learn more: https://docs.expo.dev/workflow/prebuild/#usage-with-eas-build
+
+The following issues were found when validating your dependencies against React Native Directory:
+No metadata available: @expo/metro-runtime, @react-native-community/masked-view, bcrypt, body-parser, cors, express, moment-timezone, mysql2
+Advice:
+- Update React Native Directory to include metadata for unknown packages. Alternatively, set expo.doctor.reactNativeDirectoryCheck.listUnknownPackages in package.json to false to skip warnings about packages with no metadata, if the warning is not relevant.
+
+The following packages should be updated for best compatibility with the installed expo version:
+  @react-native-async-storage/async-storage@2.1.1 - expected version: 1.23.1
+  @react-native-community/datetimepicker@8.3.0 - expected version: 8.2.0
+  @react-native-picker/picker@2.11.0 - expected version: 2.9.0
+  react@18.2.0 - expected version: 18.3.1
+  react-dom@18.2.0 - expected version: 18.3.1
+  react-native@0.77.0 - expected version: 0.76.7
+  react-native-gesture-handler@2.23.0 - expected version: ~2.20.2
+  react-native-safe-area-context@5.2.0 - expected version: 4.12.0
+  react-native-screens@4.6.0 - expected version: ~4.4.0
+  react-native-svg@15.11.1 - expected version: 15.8.0
+Your project may not work correctly until you install the expected versions of the packages.
+Found outdated dependencies
+Advice: Use 'npx expo install --check' to review and upgrade your dependencies.
+
+One or more checks failed, indicating possible issues with the project.
+PS C:\Users\Administrator\Desktop\Attendansu\Attendance> eas build:configure
+Using EAS CLI without version control system is not recommended, use this mode only if you know what you are doing.
+💡 The following process will configure your iOS and/or Android project to be compatible with EAS Build. These changes only apply to your local project files and you can safely revert them at any time.
+
+√ Which platforms would you like to configure for EAS Build? » Android
+
+🎉 Your project is ready to build.
+
+- Run eas build when you are ready to create your first build.
+- Once the build is completed, run eas submit to upload the app to app stores.
+- Learn more about other capabilities of EAS Build: https://docs.expo.dev/build/introduction
+PS C:\Users\Administrator\Desktop\Attendansu\Attendance> eas build --platform android --profile preview
+Using EAS CLI without version control system is not recommended, use this mode only if you know what you are doing.
+Resolved "preview" environment for the build. Learn more: https://docs.expo.dev/eas/environment-variables/#setting-the-environment-for-your-builds
+No environment variables with visibility "Plain text" and "Sensitive" found for the "preview" environment on EAS.
+
+Specified value for "android.package" in app.json is ignored because an android directory was detected in the project.
+EAS Build will use the value found in the native code.
+✔ Using remote Android credentials (Expo server)
+✔ Using Keystore from configuration: Build Credentials lDFdafk1iK (default)
+
+Compressing project files and uploading to EAS Build. Learn more: https://expo.fyi/eas-build-archive
+✔ Uploaded to EAS 2s
+✔ Computed project fingerprint
+
+Build details: https://expo.dev/accounts/gowthaminayam/projects/Attendance/builds/f7199d4b-d6e0-4aca-a5b7-b5523a31ddf1
+
+Waiting for build to complete. You can press Ctrl+C to exit.
+✖ Build failed
+
+🤖 Android build failed:
+Gradle build failed with unknown error. See logs for the "Run gradlew" (https://expo.dev/accounts/gowthaminayam/projects/Attendance/builds/f7199d4b-d6e0-4aca-a5b7-b5523a31ddf1#run-gradlew) phase for more information.
+PS C:\Users\Administrator\Desktop\Attendansu\Attendance> expo doctor
+WARNING: The legacy expo-cli does not support Node +17. Migrate to the new local Expo CLI: https://blog.expo.dev/the-new-expo-cli-f4250d8e3421.
+┌───────────────────────────────────────────────────────────────────────────┐
+│                                                                           │
+│   The global expo-cli package has been deprecated.                        │
+│                                                                           │
+│   The new Expo CLI is now bundled in your project in the expo package.    │
+│   Learn more: https://blog.expo.dev/the-new-expo-cli-f4250d8e3421.        │
+│                                                                           │
+│   To use the local CLI instead (recommended in SDK 46 and higher), run:   │
+│   › npx expo <command>                                                    │
+│                                                                           │
+└───────────────────────────────────────────────────────────────────────────┘
+'expo-cli doctor' is not supported for SDK 46 and higher. Use 'npx expo-doctor' instead.
+PS C:\Users\Administrator\Desktop\Attendansu\Attendance> expo upgrade
+WARNING: The legacy expo-cli does not support Node +17. Migrate to the new local Expo CLI: https://blog.expo.dev/the-new-expo-cli-f4250d8e3421.
+┌───────────────────────────────────────────────────────────────────────────┐
+│                                                                           │
+│   The global expo-cli package has been deprecated.                        │
+│                                                                           │
+│   The new Expo CLI is now bundled in your project in the expo package.    │
+│   Learn more: https://blog.expo.dev/the-new-expo-cli-f4250d8e3421.        │
+│                                                                           │
+│   To use the local CLI instead (recommended in SDK 46 and higher), run:   │
+│   › npx expo <command>                                                    │
+│                                                                           │
+└───────────────────────────────────────────────────────────────────────────┘
+Warning! Your git working tree is dirty.
+It's recommended to commit all your changes before proceeding, so you can revert the changes made by this command if necessary.
+
+√ Would you like to proceed? ... yes
+
+√ You are already using the latest SDK version. Do you want to run the update anyways? This may be useful to ensure that all of your packages are set to the correct version. ... yes
+
+√ Validated configuration.
+√ No additional changes necessary to app.json config.
+
+√ Updated known packages to compatible versions.
+√ Removed package-lock.json and deleted node_modules.
+√ Installed node_modules and rebuilt package-lock.json.
+× Failed to clear packager cache with error: Cannot find module 'react-native/local-cli/cli.js'
+Require stack:
+- C:\Users\Administrator\Desktop\Attendansu\Attendance\noop.js
+√ Cleared packager cache.
+√ Validated project
+
+👏 Automated upgrade steps complete.
+...but this doesn't mean everything is done yet!
+
+✅ The following packages were updated:
+expo-device, expo-image-picker, expo-linear-gradient, expo-location, @expo/metro-runtime, expo-status-bar, expo-system-ui, react, react-dom, react-native, @react-native-async-storage/async-storage, @react-native-community/datetimepicker, react-native-gesture-handler, @react-native-picker/picker, react-native-reanimated, react-native-safe-area-context, react-native-screens, react-native-svg, react-native-web, @babel/core, expo
+
+🚨 The following packages were not updated. You should check the READMEs for those repositories to determine what version is compatible with your new set of packages:
+@react-native-community/masked-view, @react-navigation/native, @react-navigation/stack, axios, bcrypt, body-parser, cors, express, moment-timezone, mysql2, react-native-animatable, react-native-date-picker, react-native-linear-gradient, react-native-paper, react-native-picker-select, react-native-vector-icons
+
+Please refer to the release notes for information on any further required steps to update and information about breaking changes:
+https://expo.dev/changelog/2024/11-12-sdk-52
+PS C:\Users\Administrator\Desktop\Attendansu\Attendance> expo r -c
+WARNING: The legacy expo-cli does not support Node +17. Migrate to the new local Expo CLI: https://blog.expo.dev/the-new-expo-cli-f4250d8e3421.
+┌───────────────────────────────────────────────────────────────────────────┐
+│                                                                           │
+│   The global expo-cli package has been deprecated.                        │
+│                                                                           │
+│   The new Expo CLI is now bundled in your project in the expo package.    │
+│   Learn more: https://blog.expo.dev/the-new-expo-cli-f4250d8e3421.        │
+│                                                                           │
+│   To use the local CLI instead (recommended in SDK 46 and higher), run:   │
+│   › npx expo <command>                                                    │
+│                                                                           │
+└───────────────────────────────────────────────────────────────────────────┘
+Starting project at C:\Users\Administrator\Desktop\Attendansu\Attendance
+ExpoMetroConfig.loadAsync is not a function
+TypeError: ExpoMetroConfig.loadAsync is not a function
+    at runMetroDevServerAsync (C:\Users\Administrator\AppData\Roaming\npm\node_modules\expo-cli\node_modules\@expo\dev-server\src\MetroDevServer.ts:86:45)
+    at startDevServerAsync (C:\Users\Administrator\AppData\Roaming\npm\node_modules\expo-cli\node_modules\xdl\src\start\startDevServerAsync.ts:75:77)
+    at startAsync (C:\Users\Administrator\AppData\Roaming\npm\node_modules\expo-cli\node_modules\xdl\src\start\startAsync.ts:84:41)
+PS C:\Users\Administrator\Desktop\Attendansu\Attendance> rm -rf .expo .expo-shared node_modules package-lock.json
+Remove-Item : A parameter cannot be found that matches parameter name 'rf'.
+At line:1 char:4
++ rm -rf .expo .expo-shared node_modules package-lock.json
++    ~~~
+    + CategoryInfo          : InvalidArgument: (:) [Remove-Item], ParameterBindingException
+    + FullyQualifiedErrorId : NamedParameterNotFound,Microsoft.PowerShell.Commands.RemoveItemCommand
+
+PS C:\Users\Administrator\Desktop\Attendansu\Attendance> npx expo-doctor
+WARNING: We recommend using PowerShell or Bash via WSL 2 for development with Expo CLI on Windows. You may encounter issues using cmd.exe.
+
+Enabled experimental React Native Directory checks. Unset the EXPO_DOCTOR_ENABLE_DIRECTORY_CHECK environment variable to disable this check.
+✔ Check package.json for common issues
+✔ Check Expo config for common issues
+✔ Check native tooling versions
+✔ Check for common project setup issues
+✔ Check dependencies for packages that should not be installed directly
+✔ Check npm/ yarn versions
+✔ Check for issues with Metro config
+✔ Check if the project meets version requirements for submission to app stores
+✖ Check for app config fields that may not be synced in a non-CNG project
+✖ Validate packages against React Native Directory package metadata
+✔ Check Expo config (app.json/ app.config.js) schema
+✔ Check for legacy global CLI installed locally
+✔ Check that native modules do not use incompatible support packages
+✔ Check that packages match versions required by installed Expo SDK
+✔ Check that native modules use compatible support package versions for installed Expo SDK
+
+Detailed check results:
+
+This project contains native project folders but also has native configuration properties in app.json, indicating it is configured to use Prebuild. When the android/ios folders are present, EAS Build will not sync the following properties: orientation, icon, userInterfaceStyle, splash, ios, android.
+
+Advice: Add '/android' and '/ios' to your .gitignore file if you intend to use CNG / Prebuild. Learn more: https://docs.expo.dev/workflow/prebuild/#usage-with-eas-build
+
+The following issues were found when validating your dependencies against React Native Directory:
+No metadata available: @expo/metro-runtime, @react-native-community/masked-view, bcrypt, body-parser, cors, express, moment-timezone, mysql2
+Advice:
+- Update React Native Directory to include metadata for unknown packages. Alternatively, set expo.doctor.reactNativeDirectoryCheck.listUnknownPackages in package.json to false to skip warnings about packages with no metadata, if the warning is not relevant.
+
+One or more checks failed, indicating possible issues with the project.
+PS C:\Users\Administrator\Desktop\Attendansu\Attendance> Remove-Item -Recurse -Force node_modules, package-lock.json
+PS C:\Users\Administrator\Desktop\Attendansu\Attendance>
+PS C:\Users\Administrator\Desktop\Attendansu\Attendance> npm cache clean --force
+npm warn using --force Recommended protections disabled.
+PS C:\Users\Administrator\Desktop\Attendansu\Attendance> npm install
+npm warn deprecated inflight@1.0.6: This module is not supported, and leaks memory. Do not use it. Check out lru-cache if you want a good and tested way to coalesce async requests by a key value, which is much more comprehensive and powerful.
+npm warn deprecated lodash.isequal@4.5.0: This package is deprecated. Use require('node:util').isDeepStrictEqual instead.
+npm warn deprecated @babel/plugin-proposal-nullish-coalescing-operator@7.18.6: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-nullish-coalescing-operator instead.
+npm warn deprecated @babel/plugin-proposal-class-properties@7.18.6: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-class-properties instead.
+npm warn deprecated @babel/plugin-proposal-optional-chaining@7.21.0: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-optional-chaining instead.
+npm warn deprecated are-we-there-yet@2.0.0: This package is no longer supported.
+npm warn deprecated npmlog@5.0.1: This package is no longer supported.
+npm warn deprecated rimraf@3.0.2: Rimraf versions prior to v4 are no longer supported
+npm warn deprecated rimraf@2.6.3: Rimraf versions prior to v4 are no longer supported
+npm warn deprecated glob@7.2.3: Glob versions prior to v9 are no longer supported
+npm warn deprecated glob@7.2.3: Glob versions prior to v9 are no longer supported
+npm warn deprecated glob@7.2.3: Glob versions prior to v9 are no longer supported
+npm warn deprecated glob@7.2.3: Glob versions prior to v9 are no longer supported
+npm warn deprecated glob@7.2.3: Glob versions prior to v9 are no longer supported
+npm warn deprecated sudo-prompt@9.1.1: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
+npm warn deprecated @xmldom/xmldom@0.7.13: this version is no longer supported, please update to at least 0.8.*
+npm warn deprecated gauge@3.0.2: This package is no longer supported.
+npm warn deprecated sudo-prompt@8.2.5: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
+npm warn deprecated @react-native-community/masked-view@0.1.11: Repository was moved to @react-native-masked-view/masked-view
+
+added 1033 packages, and audited 1034 packages in 2m
+
+97 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+PS C:\Users\Administrator\Desktop\Attendansu\Attendance> npx expo start --clear
+Starting project at C:\Users\Administrator\Desktop\Attendansu\Attendance
+Starting Metro Bundler
+warning: Bundler cache is empty, rebuilding (this may take a minute)
+▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
+█ ▄▄▄▄▄ █ ██▀▀█▄▄▀█ ▄▄▄▄▄ █
+█ █   █ █  ▀█ ▀█ ▄█ █   █ █
+█ █▄▄▄█ █▀  █▄ ▀▄██ █▄▄▄█ █
+█▄▄▄▄▄▄▄█▄█ ▀▄█ ▀ █▄▄▄▄▄▄▄█
+█ ▄██▄▄▄█▀█▄█▄▀▄▀▄██ ▀▄▄ ▄█
+█ ▀ █  ▄██ ▄█▀█  ▀▀ █▄  ▀██
+█ ▀█ ▀█▄▀█▀▀▄ ▀▄▀▄▀▄▀▀▄ ▀██
+███ ▀ ▄▄▄▄▄▄ ▄▄▀▄▄▄█▄▀ ▀███
+█▄▄█▄▄▄▄▄▀▄▄▀▀█▄▄ ▄▄▄ ▀ ▄▄█
+█ ▄▄▄▄▄ █▀█  █▄█▀ █▄█ ▀▀▀▀█
+█ █   █ █▄ ▀ ▀█▄█▄▄ ▄▄▀ ▀▀█
+█ █▄▄▄█ █▀▄█ ███▄██▄▀█▀▀ ██
+█▄▄▄▄▄▄▄█▄█▄███▄████▄▄▄▄▄▄█
+
+› Metro waiting on exp://192.168.101.153:8081
+› Scan the QR code above with Expo Go (Android) or the Camera app (iOS)
+
+› Web is waiting on http://localhost:8081
+
+› Using Expo Go
+› Press s │ switch to development build
+
+› Press a │ open Android
+› Press w │ open web
+
+› Press j │ open debugger
+› Press r │ reload app
+› Press m │ toggle menu
+› shift+m │ more tools
+› Press o │ open project code in your editor
+
+› Press ? │ show all commands
+
+Logs for your project will appear below. Press Ctrl+C to exit.
+› Open in the web browser...
+› Press ? │ show all commands
+Web Bundled 14032ms index.js (1019 modules)
+› Stopped server
+PS C:\Users\Administrator\Desktop\Attendansu\Attendance> Remove-Item -Recurse -Force android, ios
+Remove-Item : Cannot find path 'C:\Users\Administrator\Desktop\Attendansu\Attendance\ios' because it does not exist.
+At line:1 char:1
++ Remove-Item -Recurse -Force android, ios
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\Admini...\Attendance\ios:String) [Remove-Item], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.RemoveItemCommand
+
+PS C:\Users\Administrator\Desktop\Attendansu\Attendance> eas build --platform android
+Using EAS CLI without version control system is not recommended, use this mode only if you know what you are doing.
+Resolved "production" environment for the build. Learn more: https://docs.expo.dev/eas/environment-variables/#setting-the-environment-for-your-builds
+No environment variables with visibility "Plain text" and "Sensitive" found for the "production" environment on EAS.
+
+✔ Incremented versionCode from 1 to 2.
+✔ Using remote Android credentials (Expo server)
+✔ Using Keystore from configuration: Build Credentials lDFdafk1iK (default)
+
+Compressing project files and uploading to EAS Build. Learn more: https://expo.fyi/eas-build-archive
+✔ Uploaded to EAS 1s
+✔ Computed project fingerprint
+
+Build details: https://expo.dev/accounts/gowthaminayam/projects/Attendance/builds/5d707cad-2eda-4601-9275-2d78471fc071
+
+Waiting for build to complete. You can press Ctrl+C to exit.
+✔ Build finished
+
+🤖 Android app:
+https://expo.dev/artifacts/eas/cxdPXRvSNDJFPkJ1QxSjxB.aab
+PS C:\Users\Administrator\Desktop\Attendansu\Attendance> eas submit --platform android
+Using EAS CLI without version control system is not recommended, use this mode only if you know what you are doing.
+
+√ What would you like to submit? » Select a build from EAS
+√ Which build would you like to submit? » - ID: 5d707cad-2eda-4601-9275-2d78471fc071 (4 minutes ago)
+Looking up credentials configuration for com.gowthaminayam.Attendance...
+A Google Service Account JSON key is required for uploading your app to Google Play Store, and for sending Android Notifications via FCM V1..
+If you're not sure what this is or how to create one, learn more: https://expo.fyi/creating-google-service-account
+× Path to Google Service Account file: ... api-0000000000000000000-111111-aaaaaabbbbbb.json
+PS C:\Users\Administrator\Desktop\Attendansu\Attendance> eas build --platform android --profile preview
+Using EAS CLI without version control system is not recommended, use this mode only if you know what you are doing.
+Resolved "preview" environment for the build. Learn more: https://docs.expo.dev/eas/environment-variables/#setting-the-environment-for-your-builds
+No environment variables with visibility "Plain text" and "Sensitive" found for the "preview" environment on EAS.
+
+✔ Using remote Android credentials (Expo server)
+✔ Using Keystore from configuration: Build Credentials lDFdafk1iK (default)
+
+Compressing project files and uploading to EAS Build. Learn more: https://expo.fyi/eas-build-archive
+✔ Uploaded to EAS 1s
+✔ Computed project fingerprint
+
+Build details: https://expo.dev/accounts/gowthaminayam/projects/Attendance/builds/43c2e3e0-571d-4fe9-9d14-8992534ba4ea
+
+Waiting for build to complete. You can press Ctrl+C to exit.
+- Build in progress...
+
+
+
+
+
+
+
+
+
+
+
+
