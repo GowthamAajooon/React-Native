@@ -1,0 +1,227 @@
+PS C:\Users\Administrator\Desktop\Attendansu\Attendance> eas build:configure
+★ eas-cli@15.0.9 is now available.
+To upgrade, run:
+npm install -g eas-cli
+Proceeding with outdated version.
+
+EAS project not configured.
+√ Would you like to automatically create an EAS project for @gowthaminayam/Attendance? ... yes
+✔ Created @gowthaminayam/Attendance: https://expo.dev/accounts/gowthaminayam/projects/Attendance on EAS
+✔ Linked local project to EAS project efc3e104-a123-45af-9ef2-2f8c4454f172
+💡 The following process will configure your iOS and/or Android project to be compatible with EAS Build. These changes only apply to your local project files and you can safely revert them at any time.
+git command not found. Install it before proceeding or set EAS_NO_VCS=1 to use EAS CLI without Git (or any other version control system).
+Learn more: https://expo.fyi/eas-vcs-workflow
+git found, but git --help exited with status undefined.
+Repair your Git installation, or set EAS_NO_VCS=1 to use EAS CLI without Git (or any other version control system).
+Learn more: https://expo.fyi/eas-vcs-workflow
+EEXIT: 1
+    Error: build:configure command failed.
+PS C:\Users\Administrator\Desktop\Attendansu\Attendance> 
+
+
+
+
+
+
+
+Step 1: Install Git (If Not Installed)
+Since EAS Build requires Git, install it if it’s missing.
+
+🔹 Download Git from: https://git-scm.com/downloads
+🔹 Install it and restart your terminal (PowerShell).
+
+After installation, verify by running:
+
+
+
+git --version
+
+It should return a version like:
+
+git version 2.39.1.windows.1
+
+
+
+
+Step 2: Configure Git
+If Git is installed but not properly set up, try this:
+
+git config --global user.name "Your Name"
+git config --global user.email "your-email@example.com"
+
+
+Step 3: Re-run EAS Build Configuration
+
+Once Git is properly installed, retry:
+eas build:configure
+
+If you still face issues, bypass Git by running:
+EAS_NO_VCS=1 eas build:configure
+
+Step 4: Continue with APK Build
+If the configuration succeeds, proceed with:
+eas build --platform android --profile preview
+
+
+or for a production build:
+eas build --platform android --profile production
+
+
+
+
+
+
+
+PS C:\Users\Administrator\Desktop\Attendansu\Attendance> eas build:configure
+★ eas-cli@15.0.9 is now available.
+To upgrade, run:
+npm install -g eas-cli
+Proceeding with outdated version.
+
+💡 The following process will configure your iOS and/or Android project to be compatible with EAS Build. These changes only apply to your local project files and you can safely revert them at any time.
+git command not found. Install it before proceeding or set EAS_NO_VCS=1 to use EAS CLI without Git (or any other version control system).
+Learn more: https://expo.fyi/eas-vcs-workflow
+git found, but git --help exited with status undefined.
+Repair your Git installation, or set EAS_NO_VCS=1 to use EAS CLI without Git (or any other version control system).
+Learn more: https://expo.fyi/eas-vcs-workflow
+EEXIT: 1
+    Error: build:configure command failed.
+PS C:\Users\Administrator\Desktop\Attendansu\Attendance> 
+
+
+
+Step 1: Verify Git Installation
+Run:
+
+git --version
+
+If you still get "command not found", reinstall Git properly.
+
+Step 2: Reinstall Git (Properly)
+Uninstall Git (If Installed)
+
+Open Control Panel → Programs & Features.
+Find Git, right-click, and select Uninstall.
+Download & Install Git
+
+Download from 👉 https://git-scm.com/downloads
+Run the installer and select default options.
+During installation, enable "Use Git from Windows Command Prompt".
+Restart your computer.
+
+Step 3: Add Git to System PATH (If Needed)
+If git --version still doesn’t work:
+
+Open Start Menu → Search "Environment Variables" → Click "Edit the system environment variables".
+
+In the System Properties window, click "Environment Variables".
+
+Under System Variables, find and select Path, then click Edit.
+
+Click New, then add:
+
+makefile
+C:\Program Files\Git\bin
+C:\Program Files\Git\cmd
+
+Click OK, restart your system, and check again:
+git --version
+
+Step 4: Run EAS Build Again
+
+Once Git is working, try running:
+eas build:configure
+
+If Git still causes issues, bypass Git by using:
+EAS_NO_VCS=1 eas build:configure
+
+Then build the APK:
+eas build --platform android --profile preview
+
+
+PS C:\Users\Administrator\Desktop\Attendansu\Attendance> EAS_NO_VCS=1 eas build:configure
+>>
+EAS_NO_VCS=1 : The term 'EAS_NO_VCS=1' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, 
+verify that the path is correct and try again.
+At line:1 char:1
++ EAS_NO_VCS=1 eas build:configure
++ ~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (EAS_NO_VCS=1:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\Users\Administrator\Desktop\Attendansu\Attendance> 
+
+
+
+Fix for Windows PowerShell: Running EAS Without Git
+Windows PowerShell does not support setting environment variables the same way as Linux/macOS. Instead, use the following command:
+
+powershell
+$env:EAS_NO_VCS=1; eas build:configure
+
+This temporarily sets EAS_NO_VCS=1 and runs eas build:configure.
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+Alternative (Using CMD Instead of PowerShell)
+If PowerShell doesn't work, try running the command in Command Prompt (CMD):
+
+Open Command Prompt (cmd.exe).
+
+Navigate to your project folder:
+cd C:\Users\Administrator\Desktop\Attendansu\Attendance
+
+Run:
+set EAS_NO_VCS=1 && eas build:configure
+
+
+Next Steps
+Once eas build:configure succeeds, build your APK with:
+eas build --platform android --profile preview
+
+
+
+If you don't want to use Git, set EAS to ignore Git:
+powershell
+Copy
+Edit
+$env:EAS_NO_VCS="1"
+eas build:configure
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
