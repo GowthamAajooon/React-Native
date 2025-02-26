@@ -70,7 +70,8 @@ user_id varchar(255)
 user_name varchar(255) 
 meid varchar(255) 
 request_date date 
-request_time time
+request_time time 
+process_status varchar(20)
 
 CREATE TABLE buildrequest (
   id INT AUTO_INCREMENT PRIMARY KEY,
@@ -80,6 +81,8 @@ CREATE TABLE buildrequest (
   request_date DATE,
   request_time TIME
 );
+
+ALTER TABLE buildrequest ADD COLUMN process_status VARCHAR(20) DEFAULT 'NOT UPDATED';
 
 ALTER TABLE buildrequest
 CHANGE request_date request_date DATE DEFAULT (CURRENT_DATE),
