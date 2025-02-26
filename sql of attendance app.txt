@@ -1,0 +1,260 @@
+use attendance_db;
+show tables;
+desc users; 
+
+Table: users
+Columns:
+id int AI PK 
+user_id varchar(255) 
+user_name varchar(255) 
+password varchar(255) 
+phone_number varchar(255) 
+field_head varchar(255) 
+program_id varchar(255) 
+hr_id varchar(255) 
+programme varchar(100) 
+region varchar(100) 
+location varchar(100) 
+meid varchar(100) 
+casual_leavecount int 
+sick_leavecount int 
+workplace varchar(50)
+
+ALTER TABLE users
+ADD casual_leavecount INT DEFAULT 0,
+ADD sick_leavecount INT DEFAULT 0;
+
+ALTER TABLE users ADD COLUMN workplace VARCHAR(50); 
+  
+Table: absenteerecords
+Columns:
+id int PK 
+user_id int 
+user_name varchar(255) 
+attendance_date date 
+programme varchar(255) 
+region varchar(255) 
+location varchar(255)
+
+Table: adminpassword
+Columns:
+id int AI PK 
+password varchar(255)
+
+Table: attendance
+Columns:
+id int AI PK 
+user_id varchar(10) 
+user_name varchar(50) 
+work_place enum('office','field') 
+Area_Name varchar(1000) 
+latitude decimal(10,8) 
+longitude decimal(11,8) 
+timestamp varchar(20) 
+attendance_date date 
+programme varchar(100) 
+region varchar(100) 
+location varchar(100) 
+destination varchar(255) 
+purpose varchar(800)
+
+ALTER TABLE attendance 
+ADD COLUMN destination VARCHAR(255),
+ADD COLUMN purpose VARCHAR(800);
+  
+
+Table: buildrequest
+Columns:
+id int AI PK 
+user_id varchar(255) 
+user_name varchar(255) 
+meid varchar(255) 
+request_date date 
+request_time time
+
+CREATE TABLE buildrequest (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  user_id VARCHAR(255),
+  user_name VARCHAR(255),
+  meid VARCHAR(255),
+  request_date DATE,
+  request_time TIME
+);
+
+ALTER TABLE buildrequest
+CHANGE request_date request_date DATE DEFAULT (CURRENT_DATE),
+CHANGE request_time request_time TIME DEFAULT (CURRENT_TIME);
+  
+
+Table: leavedata
+Columns:
+id int AI PK 
+user_id varchar(255) 
+user_name varchar(255) 
+password varchar(255) 
+phone_number varchar(255) 
+field_head varchar(255) 
+program_id varchar(255) 
+hr_id varchar(255) 
+programme varchar(100) 
+region varchar(100) 
+location varchar(100) 
+meid varchar(100) 
+casual_leavecount int 
+sick_leavecount int 
+workplace varchar(100) 
+year int
+
+Table: locations
+Columns:
+id int AI PK 
+location_name varchar(255) 
+region_name varchar(255)
+
+Table: programmes
+Columns:
+programme_name varchar(255)
+
+Table: regions
+Columns:
+region_name varchar(255) PK
+
+Table: userleaverequest
+Columns:
+id int AI PK 
+userId varchar(255) 
+userName varchar(255) 
+field_head varchar(255) 
+programId varchar(255) 
+dateFrom date 
+dateTo date 
+numberOfDays int 
+reason text 
+todaydate date 
+approval varchar(50) 
+remarks varchar(50) 
+LeaveType varchar(50)
+
+Table: users
+Columns:
+id int AI PK 
+user_id varchar(255) 
+user_name varchar(255) 
+password varchar(255) 
+phone_number varchar(255) 
+field_head varchar(255) 
+program_id varchar(255) 
+hr_id varchar(255) 
+programme varchar(100) 
+region varchar(100) 
+location varchar(100) 
+meid varchar(100) 
+casual_leavecount int 
+sick_leavecount int 
+workplace varchar(50)
+
+Table: workplace
+Columns:
+workplace varchar(50)
+
+
+
+--                 THIS IS THE FINAL CODE TO TRANSFER THE DATA 
+
+DELIMITER //
+
+CREATE PROCEDURE reset_leave()
+BEGIN
+    -- Store the current user data in the leavedata table along with the current year
+    INSERT INTO leavedata (user_id, user_name, password, phone_number, field_head, program_id, hr_id, programme, region, location, meid, casual_leavecount, sick_leavecount,workplace, year)
+    SELECT user_id, user_name, password, phone_number, field_head, program_id, hr_id, programme, region, location, meid, casual_leavecount, sick_leavecount,workplace, YEAR(CURDATE())
+    FROM users;
+
+    -- Reset casual and sick leave counts for all users
+    UPDATE users
+    SET casual_leavecount = 0,
+        sick_leavecount = 0;
+END //
+
+DELIMITER ;
+
+SET GLOBAL event_scheduler = ON;
+
+-- EVENT CALLS EVERY YEAR
+CREATE EVENT reset_leave_event
+ON SCHEDULE EVERY 1 YEAR
+STARTS CONCAT(YEAR(CURDATE()), '-12-16 00:00:00') -- Custom start date: December 16th of the current year
+DO
+CALL reset_leave();
+-- Custom start date: April 15th of the current year '-mm-dd 00:00:00'
+
+
+-- Instant calling 
+
+CALL reset_leave(); 
+
+
+--  TO DROP THE EVENT
+DROP EVENT IF EXISTS reset_leave_event;
+
+
+
+
+
+SET SQL_SAFE_UPDATES = 0; --  ON 
+
+SET SQL_SAFE_UPDATES = 1; -- OFF 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
